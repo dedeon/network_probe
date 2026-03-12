@@ -1,0 +1,59 @@
+{
+  "report_time": "2026-03-10T03:29:21.812904",
+  "summary": {
+    "total_apps": 29082,
+    "unique_packages": 29082,
+    "total_customers": 673,
+    "enterprise_extraction_rate": 100.0
+  },
+  "by_product_line": {
+    "钉钉": 71,
+    "企业微信": 1177,
+    "飞书": 67,
+    "办公协同": 27748,
+    "政务服务": 19
+  },
+  "by_source_site": {
+    "应用宝": 29029,
+    "火鸟手游网": 2,
+    "安粉丝网": 2,
+    "IT168": 3,
+    "当下软件园": 2,
+    "极客公园": 1,
+    "新闻报道确认": 2,
+    "9K9K应用市场": 1,
+    "用户确认+搜索辅证": 23,
+    "用户确认+包名分析": 17
+  },
+  "by_discovery_method": {
+    "known_package_verify": 115,
+    "snowball_round_1": 1025,
+    "snowball_round_2": 4705,
+    "known_feishu_custom": 6,
+    "known_dingding_custom": 2,
+    "known_taurus_custom": 6,
+    "search_engine_verified": 11,
+    "news_verified": 2,
+    "user_confirmed_search_assisted": 23,
+    "user_confirmed_package_analysis": 17,
+    "snowball_round_3": 12234,
+    "snowball_round_4": 10936
+  },
+  "quality": {
+    "average_score": 0.8494,
+    "max_score": 0.85,
+    "min_score": 0.6,
+    "grade_distribution": {
+      "A": 28989,
+      "B": 93,
+      "C": 0,
+      "D": 0,
+      "F": 0
+    }
+  },
+  "customers_by_product_line": {
+    "企业微信": 175,
+    "钉钉": 374,
+    "飞书": 124
+  }
+}

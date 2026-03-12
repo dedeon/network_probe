@@ -1,0 +1,6064 @@
+{
+  "export_time": "2026-03-10T03:29:11.720298",
+  "total": 673,
+  "filter": null,
+  "data": [
+    {
+      "id": 1,
+      "enterprise_name": "帮助中心",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 2,
+      "enterprise_name": "提供企业级信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 3,
+      "enterprise_name": "会议和邮件等信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 4,
+      "enterprise_name": "让机器人在公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 5,
+      "enterprise_name": "业务信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 6,
+      "enterprise_name": "将分散在各处的工作信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 7,
+      "enterprise_name": "可将活动信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 8,
+      "enterprise_name": "可管理员工花名册信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 9,
+      "enterprise_name": "同事信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 10,
+      "enterprise_name": "可用上下游连接全球分公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 11,
+      "enterprise_name": "发表的朋友圈信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 12,
+      "enterprise_name": "开发者中心",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 13,
+      "enterprise_name": "通过国家信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 14,
+      "enterprise_name": "适配复杂网络",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 15,
+      "enterprise_name": "等复杂网络",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 16,
+      "enterprise_name": "满足复杂网络",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 17,
+      "enterprise_name": "众多政府",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 18,
+      "enterprise_name": "国企以及金融",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 19,
+      "enterprise_name": "如何创作出打动大公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 20,
+      "enterprise_name": "南方医院",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 21,
+      "enterprise_name": "传统制造",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 22,
+      "enterprise_name": "华夏银行",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 23,
+      "enterprise_name": "招商银行",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 24,
+      "enterprise_name": "银行如何打造线上五星级营业厅",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 25,
+      "enterprise_name": "平安银行",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 26,
+      "enterprise_name": "的酒店集团",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 27,
+      "enterprise_name": "私域里的爆款制造",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 28,
+      "enterprise_name": "极米科技",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 29,
+      "enterprise_name": "谁给了这家科技",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 30,
+      "enterprise_name": "劲松口腔医院",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 31,
+      "enterprise_name": "北京大学",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 32,
+      "enterprise_name": "第一医院",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 33,
+      "enterprise_name": "揭秘这所顶级医院",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 34,
+      "enterprise_name": "餐饮集团",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 35,
+      "enterprise_name": "盈米基金",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 36,
+      "enterprise_name": "如何让重要的信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 37,
+      "enterprise_name": "松赞度假酒店集团",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 38,
+      "enterprise_name": "洲明科技",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 39,
+      "enterprise_name": "北京师范大学",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 40,
+      "enterprise_name": "极氪汽车",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 41,
+      "enterprise_name": "中山大学",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 42,
+      "enterprise_name": "山西大学",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 43,
+      "enterprise_name": "尤伦斯当代艺术中心",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 44,
+      "enterprise_name": "当代艺术中心",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 45,
+      "enterprise_name": "文档和会议中的信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 46,
+      "enterprise_name": "总结的信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 47,
+      "enterprise_name": "支持同步项目管理类应用中的任务信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 48,
+      "enterprise_name": "支持查看客户个人信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 49,
+      "enterprise_name": "入转调离新增操作者信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 50,
+      "enterprise_name": "安全中心",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:42"
+    },
+    {
+      "id": 51,
+      "enterprise_name": "商家中心",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "page.dingtalk.com/正则提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:17:48"
+    },
+    {
+      "id": 52,
+      "enterprise_name": "某三甲医院",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:36"
+    },
+    {
+      "id": 53,
+      "enterprise_name": "某汽车交易中心",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:36"
+    },
+    {
+      "id": 54,
+      "enterprise_name": "搜狐汽车",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:36"
+    },
+    {
+      "id": 55,
+      "enterprise_name": "卫瓴科技",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:36"
+    },
+    {
+      "id": 56,
+      "enterprise_name": "启域网络",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:36"
+    },
+    {
+      "id": 57,
+      "enterprise_name": "在客户朋友圈发布商品信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:41"
+    },
+    {
+      "id": 58,
+      "enterprise_name": "避免中老年人出门去药店或医院",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:41"
+    },
+    {
+      "id": 59,
+      "enterprise_name": "在客户朋友圈中进行商品信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:41"
+    },
+    {
+      "id": 60,
+      "enterprise_name": "消毒水等用户急需产品的到货信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:41"
+    },
+    {
+      "id": 61,
+      "enterprise_name": "为了让公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:41"
+    },
+    {
+      "id": 62,
+      "enterprise_name": "的用户画像等信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:41"
+    },
+    {
+      "id": 63,
+      "enterprise_name": "由于经销商不属于公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:41"
+    },
+    {
+      "id": 64,
+      "enterprise_name": "直接打破了与经销商之间以及经销商与集团",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:18:41"
+    },
+    {
+      "id": 65,
+      "enterprise_name": "腾讯公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 合作企业",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:01"
+    },
+    {
+      "id": 66,
+      "enterprise_name": "批量为上下游发送信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 合作企业",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:01"
+    },
+    {
+      "id": 67,
+      "enterprise_name": "可以给上下游企业共享信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:05"
+    },
+    {
+      "id": 69,
+      "enterprise_name": "企业微信帮助中心",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/bing/\"企业微信\" 成功案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:33"
+    },
+    {
+      "id": 70,
+      "enterprise_name": "助力企业提升工作效率和信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/bing/\"企业微信\" 成功案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:33"
+    },
+    {
+      "id": 71,
+      "enterprise_name": "微信是腾讯公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 成功案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:33"
+    },
+    {
+      "id": 85,
+      "enterprise_name": "跨地区等复杂网络",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:56"
+    },
+    {
+      "id": 88,
+      "enterprise_name": "松赞度假酒店",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:56"
+    },
+    {
+      "id": 89,
+      "enterprise_name": "藏地最美酒店",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:56"
+    },
+    {
+      "id": 119,
+      "enterprise_name": "灵活配置确保信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:56"
+    },
+    {
+      "id": 120,
+      "enterprise_name": "可添加水印确保信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:56"
+    },
+    {
+      "id": 121,
+      "enterprise_name": "畅所欲言的公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "work.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:19:56"
+    },
+    {
+      "id": 122,
+      "enterprise_name": "如何收集客户信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 标杆客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:12"
+    },
+    {
+      "id": 123,
+      "enterprise_name": "腾讯电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:38"
+    },
+    {
+      "id": 124,
+      "enterprise_name": "签企微融合助一站式电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:38"
+    },
+    {
+      "id": 125,
+      "enterprise_name": "可在企业微信待办中心",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:38"
+    },
+    {
+      "id": 126,
+      "enterprise_name": "企业微信上签署电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:38"
+    },
+    {
+      "id": 127,
+      "enterprise_name": "高效安全的电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:38"
+    },
+    {
+      "id": 128,
+      "enterprise_name": "上海财经大学",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:38"
+    },
+    {
+      "id": 129,
+      "enterprise_name": "数字化创新实践中心",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:38"
+    },
+    {
+      "id": 130,
+      "enterprise_name": "企业微信电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:38"
+    },
+    {
+      "id": 131,
+      "enterprise_name": "怎么签电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:38"
+    },
+    {
+      "id": 132,
+      "enterprise_name": "企业微信怎么绑定另一个公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:38"
+    },
+    {
+      "id": 133,
+      "enterprise_name": "随着电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 134,
+      "enterprise_name": "便捷的电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 135,
+      "enterprise_name": "管理到出证的一站式电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 136,
+      "enterprise_name": "合同发起人员登陆电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 137,
+      "enterprise_name": "配置好合同发起人签约人的信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 138,
+      "enterprise_name": "签署人点击链接后登陆电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 139,
+      "enterprise_name": "企业只需在企业微信应用中心",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 140,
+      "enterprise_name": "签企微端集成企业微信组织架构信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 141,
+      "enterprise_name": "登录电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 142,
+      "enterprise_name": "同时支持企业用户在进行电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 143,
+      "enterprise_name": "时能实现快速关联企业微信组织架构中的员工信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 144,
+      "enterprise_name": "企业微信待办中心",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 145,
+      "enterprise_name": "确认购买意向后发起电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 146,
+      "enterprise_name": "未来腾讯电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 147,
+      "enterprise_name": "专业的印章管理和电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 148,
+      "enterprise_name": "同时推进数字政府建设",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 149,
+      "enterprise_name": "包括金融",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 150,
+      "enterprise_name": "目前腾讯电子",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 151,
+      "enterprise_name": "如需了解更多产品信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:20:42"
+    },
+    {
+      "id": 152,
+      "enterprise_name": "加企业微信会泄露个人信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" site:36kr.com",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:21:01"
+    },
+    {
+      "id": 153,
+      "enterprise_name": "是腾讯公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" site:zhihu.co",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:21:27"
+    },
+    {
+      "id": 154,
+      "enterprise_name": "将获取的客户信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:21:55"
+    },
+    {
+      "id": 155,
+      "enterprise_name": "某公司是一家电子",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:16"
+    },
+    {
+      "id": 156,
+      "enterprise_name": "票务与电子",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:16"
+    },
+    {
+      "id": 157,
+      "enterprise_name": "广州等地设立分公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:16"
+    },
+    {
+      "id": 158,
+      "enterprise_name": "帮助中心",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:16"
+    },
+    {
+      "id": 159,
+      "enterprise_name": "钉钉制造",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:16"
+    },
+    {
+      "id": 160,
+      "enterprise_name": "钉钉酒店",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:16"
+    },
+    {
+      "id": 161,
+      "enterprise_name": "冠唐云仓库帮助中心",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:16"
+    },
+    {
+      "id": 162,
+      "enterprise_name": "某科技股份",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:16"
+    },
+    {
+      "id": 163,
+      "enterprise_name": "有限公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:16"
+    },
+    {
+      "id": 164,
+      "enterprise_name": "分子公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:16"
+    },
+    {
+      "id": 165,
+      "enterprise_name": "北京数科网维技术有限责任公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:16"
+    },
+    {
+      "id": 166,
+      "enterprise_name": "北京云捷易科技",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:20"
+    },
+    {
+      "id": 167,
+      "enterprise_name": "多年来在总结国内外互联网",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:20"
+    },
+    {
+      "id": 168,
+      "enterprise_name": "借鉴国际电子",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:20"
+    },
+    {
+      "id": 169,
+      "enterprise_name": "基于电子",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:20"
+    },
+    {
+      "id": 170,
+      "enterprise_name": "推出了业内领先的电影电子",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:20"
+    },
+    {
+      "id": 171,
+      "enterprise_name": "在乌镇召开的第六届世界互联网",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 政务版",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:22:42"
+    },
+    {
+      "id": 172,
+      "enterprise_name": "长春市龙行国际定制旅游有限公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 定制版",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:23:10"
+    },
+    {
+      "id": 173,
+      "enterprise_name": "典名科技",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 定制版",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:23:10"
+    },
+    {
+      "id": 174,
+      "enterprise_name": "钉钉客户管理报价明细怎么查找明细记录信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 175,
+      "enterprise_name": "明细信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 176,
+      "enterprise_name": "家标杆客户山东京博控股",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 177,
+      "enterprise_name": "集团有限公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 178,
+      "enterprise_name": "佳沃集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 179,
+      "enterprise_name": "以下简称佳沃集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 180,
+      "enterprise_name": "有零有食食品有限公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 181,
+      "enterprise_name": "信泰人寿保险",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 182,
+      "enterprise_name": "股份有限公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 183,
+      "enterprise_name": "以下简称信泰保险",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 184,
+      "enterprise_name": "和上海艾为电子",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 185,
+      "enterprise_name": "技术股份",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 186,
+      "enterprise_name": "以下简称艾为电子",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 187,
+      "enterprise_name": "网易科技",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 188,
+      "enterprise_name": "钉钉客户管理续费订单号信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:00"
+    },
+    {
+      "id": 189,
+      "enterprise_name": "是国内领先的现代农业和食品产业集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 190,
+      "enterprise_name": "创新建设",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 191,
+      "enterprise_name": "连接企业已有的信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 192,
+      "enterprise_name": "山东京博控股",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 193,
+      "enterprise_name": "组织和职业经理人合夥出资兴办的多元化工业集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 194,
+      "enterprise_name": "销售服务网络",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 195,
+      "enterprise_name": "以用户为中心",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 196,
+      "enterprise_name": "加强了京博的信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 197,
+      "enterprise_name": "安全建设",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 198,
+      "enterprise_name": "业务和集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 199,
+      "enterprise_name": "业务及集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 200,
+      "enterprise_name": "内各部门之间信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 201,
+      "enterprise_name": "销售为一体的现代型食品公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 202,
+      "enterprise_name": "实时信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 203,
+      "enterprise_name": "针对食品加工行业必须解决的仓储物流",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 204,
+      "enterprise_name": "在一个群内就可以实时监测物流",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 205,
+      "enterprise_name": "实现对物流",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 206,
+      "enterprise_name": "是经原中国保险",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 207,
+      "enterprise_name": "监督管理委员会",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 208,
+      "enterprise_name": "日注册登记的全国性寿险公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 209,
+      "enterprise_name": "致力于为广大客户提供更为便捷的综合金融",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 210,
+      "enterprise_name": "信泰保险",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 211,
+      "enterprise_name": "专属钉钉不仅为信泰保险",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 212,
+      "enterprise_name": "推动信泰保险",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 213,
+      "enterprise_name": "并让任何一个企业都能够拥有和大型金融",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 214,
+      "enterprise_name": "上海艾为电子",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 215,
+      "enterprise_name": "是一家芯片设计公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 216,
+      "enterprise_name": "艾为电子",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:04"
+    },
+    {
+      "id": 217,
+      "enterprise_name": "本土大型公交集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:25"
+    },
+    {
+      "id": 218,
+      "enterprise_name": "钉钉与荣怀集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:25"
+    },
+    {
+      "id": 219,
+      "enterprise_name": "共建民办集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:25"
+    },
+    {
+      "id": 220,
+      "enterprise_name": "提升物流",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:25"
+    },
+    {
+      "id": 221,
+      "enterprise_name": "德新燃科技",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:25"
+    },
+    {
+      "id": 222,
+      "enterprise_name": "日下午上海德新燃科技",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:25"
+    },
+    {
+      "id": 223,
+      "enterprise_name": "钉钉与澳门公交集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:25"
+    },
+    {
+      "id": 224,
+      "enterprise_name": "海亮科技",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:25"
+    },
+    {
+      "id": 225,
+      "enterprise_name": "钉钉点签电子",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:25"
+    },
+    {
+      "id": 226,
+      "enterprise_name": "怎么在钉钉上使用点签电子",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:24:25"
+    },
+    {
+      "id": 227,
+      "enterprise_name": "动点科技",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/政务钉钉 上线",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:18"
+    },
+    {
+      "id": 228,
+      "enterprise_name": "新闻中心",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/政务钉钉 上线",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:18"
+    },
+    {
+      "id": 229,
+      "enterprise_name": "促公开政务钉钉在世界互联网",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/政务钉钉 上线",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:18"
+    },
+    {
+      "id": 230,
+      "enterprise_name": "乌镇第六届世界互联网",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/政务钉钉 上线",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:18"
+    },
+    {
+      "id": 231,
+      "enterprise_name": "浙江省政府与阿里巴巴集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/政务钉钉 上线",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:18"
+    },
+    {
+      "id": 232,
+      "enterprise_name": "前期及时录入全体人员组织架构信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:23"
+    },
+    {
+      "id": 233,
+      "enterprise_name": "州局机关多点配置蓝牙设备并同时开启网络",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:23"
+    },
+    {
+      "id": 234,
+      "enterprise_name": "确保工作在网络",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:23"
+    },
+    {
+      "id": 235,
+      "enterprise_name": "应用中心",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/bing/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 236,
+      "enterprise_name": "医生等等信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/bing/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 237,
+      "enterprise_name": "被邵阳市科技",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/bing/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 238,
+      "enterprise_name": "北京飞书科技",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 239,
+      "enterprise_name": "有限公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 240,
+      "enterprise_name": "字节跳动这家公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 241,
+      "enterprise_name": "在我接触到的信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 242,
+      "enterprise_name": "但从另一条网络",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 243,
+      "enterprise_name": "企业信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 244,
+      "enterprise_name": "理想汽车",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 245,
+      "enterprise_name": "猛士科技",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 246,
+      "enterprise_name": "新浪科技",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 247,
+      "enterprise_name": "飞书商业",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 企业客户",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:25:50"
+    },
+    {
+      "id": 248,
+      "enterprise_name": "此前为一个公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:05"
+    },
+    {
+      "id": 249,
+      "enterprise_name": "飞书首席商业",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:05"
+    },
+    {
+      "id": 250,
+      "enterprise_name": "韵达又是抖音的物流",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 合作案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:23"
+    },
+    {
+      "id": 251,
+      "enterprise_name": "成为公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 合作案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:23"
+    },
+    {
+      "id": 252,
+      "enterprise_name": "飞书助力逸动科技",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 合作案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:23"
+    },
+    {
+      "id": 253,
+      "enterprise_name": "打造新能源",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 合作案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:23"
+    },
+    {
+      "id": 254,
+      "enterprise_name": "公牛集团",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 合作案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:23"
+    },
+    {
+      "id": 255,
+      "enterprise_name": "共同打造先进制造",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 合作案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:23"
+    },
+    {
+      "id": 256,
+      "enterprise_name": "小米公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 合作案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:23"
+    },
+    {
+      "id": 257,
+      "enterprise_name": "打造统一信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 合作案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:23"
+    },
+    {
+      "id": 258,
+      "enterprise_name": "扬子江药业集团",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 合作案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:23"
+    },
+    {
+      "id": 259,
+      "enterprise_name": "罗永浩新公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 使用飞书的企业",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:46"
+    },
+    {
+      "id": 260,
+      "enterprise_name": "博腾正在建设",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 使用飞书的企业",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:46"
+    },
+    {
+      "id": 261,
+      "enterprise_name": "的智能制造",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 使用飞书的企业",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:46"
+    },
+    {
+      "id": 262,
+      "enterprise_name": "双胞胎集团",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 使用飞书的企业",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:46"
+    },
+    {
+      "id": 263,
+      "enterprise_name": "数字化建设",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 使用飞书的企业",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:46"
+    },
+    {
+      "id": 264,
+      "enterprise_name": "为什么说字节跳动是活在飞书上的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 使用飞书的企业",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:46"
+    },
+    {
+      "id": 265,
+      "enterprise_name": "厂家信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:50"
+    },
+    {
+      "id": 266,
+      "enterprise_name": "规格等繁多的信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:50"
+    },
+    {
+      "id": 267,
+      "enterprise_name": "容易造成信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:50"
+    },
+    {
+      "id": 268,
+      "enterprise_name": "查看柱子信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:50"
+    },
+    {
+      "id": 269,
+      "enterprise_name": "保障信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:50"
+    },
+    {
+      "id": 270,
+      "enterprise_name": "博腾通过多个即时通信",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:50"
+    },
+    {
+      "id": 271,
+      "enterprise_name": "这些工具的信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:50"
+    },
+    {
+      "id": 272,
+      "enterprise_name": "且容易造成信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:27:50"
+    },
+    {
+      "id": 273,
+      "enterprise_name": "双汇发展与飞书科技",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 签约 合作",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:12"
+    },
+    {
+      "id": 274,
+      "enterprise_name": "高途集团",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 签约 合作",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:12"
+    },
+    {
+      "id": 275,
+      "enterprise_name": "信息化工作委员会",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:16"
+    },
+    {
+      "id": 276,
+      "enterprise_name": "上海律协信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:16"
+    },
+    {
+      "id": 277,
+      "enterprise_name": "化工作委员会",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:16"
+    },
+    {
+      "id": 278,
+      "enterprise_name": "项目建设",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:16"
+    },
+    {
+      "id": 279,
+      "enterprise_name": "共同探索科技",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:16"
+    },
+    {
+      "id": 280,
+      "enterprise_name": "飞书模板中心",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 定制版",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:39"
+    },
+    {
+      "id": 281,
+      "enterprise_name": "腾讯软件中心",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 定制版",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:39"
+    },
+    {
+      "id": 282,
+      "enterprise_name": "书的五个版本对应不同的功能适合不同规模的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 定制版",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:39"
+    },
+    {
+      "id": 283,
+      "enterprise_name": "专业版在商业",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:43"
+    },
+    {
+      "id": 284,
+      "enterprise_name": "旗舰版在商业",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:43"
+    },
+    {
+      "id": 285,
+      "enterprise_name": "建议选择商业",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:43"
+    },
+    {
+      "id": 286,
+      "enterprise_name": "呼叫中心",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:43"
+    },
+    {
+      "id": 287,
+      "enterprise_name": "社群成员以企业信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:43"
+    },
+    {
+      "id": 288,
+      "enterprise_name": "部分内容来源于网络",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:28:43"
+    },
+    {
+      "id": 289,
+      "enterprise_name": "飞书们困于商业",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" site:36kr.com",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:29:06"
+    },
+    {
+      "id": 290,
+      "enterprise_name": "浙江省大数据发展管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务种子数据",
+      "known_app_name": "浙政钉",
+      "discovery_time": "2026-03-05 08:29:11"
+    },
+    {
+      "id": 291,
+      "enterprise_name": "广东省政务服务数据管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务种子数据",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:29:11"
+    },
+    {
+      "id": 292,
+      "enterprise_name": "江西省信息中心",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务种子数据",
+      "known_app_name": "赣政通",
+      "discovery_time": "2026-03-05 08:29:11"
+    },
+    {
+      "id": 293,
+      "enterprise_name": "湖北省政务管理办公室",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务种子数据",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 08:29:11"
+    },
+    {
+      "id": 294,
+      "enterprise_name": "江苏省大数据管理中心",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务种子数据",
+      "known_app_name": "苏政通",
+      "discovery_time": "2026-03-05 08:29:11"
+    },
+    {
+      "id": 295,
+      "enterprise_name": "河南省大数据管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务种子数据",
+      "known_app_name": "豫政通",
+      "discovery_time": "2026-03-05 08:29:11"
+    },
+    {
+      "id": 296,
+      "enterprise_name": "山东省大数据局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务种子数据",
+      "known_app_name": "鲁政通",
+      "discovery_time": "2026-03-05 08:29:11"
+    },
+    {
+      "id": 297,
+      "enterprise_name": "福建省数字福建建设领导小组办公室",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务种子数据",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:29:11"
+    },
+    {
+      "id": 298,
+      "enterprise_name": "安徽省数据资源管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务种子数据",
+      "known_app_name": "皖政通",
+      "discovery_time": "2026-03-05 08:29:11"
+    },
+    {
+      "id": 299,
+      "enterprise_name": "巴打造的政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "巴打造的政务",
+      "discovery_time": "2026-03-05 08:29:32"
+    },
+    {
+      "id": 300,
+      "enterprise_name": "整合了政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "整合了政务",
+      "discovery_time": "2026-03-05 08:29:32"
+    },
+    {
+      "id": 301,
+      "enterprise_name": "钉钉下载政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "钉钉下载政务",
+      "discovery_time": "2026-03-05 08:29:32"
+    },
+    {
+      "id": 302,
+      "enterprise_name": "政务钉钉下载政务钉钉",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "政务钉钉下载政务钉钉",
+      "discovery_time": "2026-03-05 08:29:32"
+    },
+    {
+      "id": 303,
+      "enterprise_name": "浙江省政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "巴打造的政务",
+      "discovery_time": "2026-03-05 08:29:54"
+    },
+    {
+      "id": 304,
+      "enterprise_name": "互联网大会丨浙江省政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "巴打造的政务",
+      "discovery_time": "2026-03-05 08:29:54"
+    },
+    {
+      "id": 305,
+      "enterprise_name": "政务协同办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "巴打造的政务",
+      "discovery_time": "2026-03-05 08:29:54"
+    },
+    {
+      "id": 306,
+      "enterprise_name": "阿里发布政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "阿里发布政务",
+      "discovery_time": "2026-03-05 08:29:54"
+    },
+    {
+      "id": 307,
+      "enterprise_name": "化转型暨政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "化转型暨政务",
+      "discovery_time": "2026-03-05 08:29:54"
+    },
+    {
+      "id": 308,
+      "enterprise_name": "联合阿里发布政务钉钉",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "联合阿里发布政务钉钉",
+      "discovery_time": "2026-03-05 08:29:54"
+    },
+    {
+      "id": 309,
+      "enterprise_name": "里巴巴打造的政务钉钉",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "里巴巴打造的政务钉钉",
+      "discovery_time": "2026-03-05 08:29:54"
+    },
+    {
+      "id": 310,
+      "enterprise_name": "数字化转型暨政务钉钉",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "数字化转型暨政务钉钉",
+      "discovery_time": "2026-03-05 08:29:54"
+    },
+    {
+      "id": 311,
+      "enterprise_name": "浙政钉",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "浙政钉",
+      "discovery_time": "2026-03-05 08:30:14"
+    },
+    {
+      "id": 312,
+      "enterprise_name": "迎下载浙政钉",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "迎下载浙政钉",
+      "discovery_time": "2026-03-05 08:30:14"
+    },
+    {
+      "id": 313,
+      "enterprise_name": "用习惯的政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "用习惯的政务",
+      "discovery_time": "2026-03-05 08:30:14"
+    },
+    {
+      "id": 314,
+      "enterprise_name": "返回顶部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "浙政钉",
+      "discovery_time": "2026-03-05 08:30:25"
+    },
+    {
+      "id": 315,
+      "enterprise_name": "储在浙江政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "储在浙江政务",
+      "discovery_time": "2026-03-05 08:30:25"
+    },
+    {
+      "id": 316,
+      "enterprise_name": "确保政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "确保政务",
+      "discovery_time": "2026-03-05 08:30:25"
+    },
+    {
+      "id": 317,
+      "enterprise_name": "面向政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "面向政务",
+      "discovery_time": "2026-03-05 08:30:25"
+    },
+    {
+      "id": 318,
+      "enterprise_name": "面向政务钉钉",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "面向政务钉钉",
+      "discovery_time": "2026-03-05 08:30:25"
+    },
+    {
+      "id": 319,
+      "enterprise_name": "粤政易",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 320,
+      "enterprise_name": "粤政易是广东省政务服务数据管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 321,
+      "enterprise_name": "粤政易移动办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 322,
+      "enterprise_name": "服务数据管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 323,
+      "enterprise_name": "时通讯和政务办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 324,
+      "enterprise_name": "是广东省政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "是广东省政务",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 325,
+      "enterprise_name": "时通讯和政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "时通讯和政务",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 326,
+      "enterprise_name": "省内各级政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "省内各级政务",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 327,
+      "enterprise_name": "粤政易移动办公平台",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "粤政易移动办公平台",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 328,
+      "enterprise_name": "广东省政务办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 329,
+      "enterprise_name": "广东省政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "广东省政务",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 330,
+      "enterprise_name": "省统一化政务办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 331,
+      "enterprise_name": "软件支持移动办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 332,
+      "enterprise_name": "提升政务办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 333,
+      "enterprise_name": "省统一化政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "省统一化政务",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 334,
+      "enterprise_name": "跨层级政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "跨层级政务",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 335,
+      "enterprise_name": "提升政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "提升政务",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 336,
+      "enterprise_name": "政易软件支持移动办公",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "政易软件支持移动办公",
+      "discovery_time": "2026-03-05 08:30:44"
+    },
+    {
+      "id": 337,
+      "enterprise_name": "实现移动办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:48"
+    },
+    {
+      "id": 338,
+      "enterprise_name": "步提升沟通和办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:48"
+    },
+    {
+      "id": 339,
+      "enterprise_name": "电子政务移动办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "粤政易",
+      "discovery_time": "2026-03-05 08:30:48"
+    },
+    {
+      "id": 340,
+      "enterprise_name": "将政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "将政务",
+      "discovery_time": "2026-03-05 08:30:48"
+    },
+    {
+      "id": 341,
+      "enterprise_name": "满足电子政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "满足电子政务",
+      "discovery_time": "2026-03-05 08:30:48"
+    },
+    {
+      "id": 342,
+      "enterprise_name": "满足政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "满足政务",
+      "discovery_time": "2026-03-05 08:30:48"
+    },
+    {
+      "id": 343,
+      "enterprise_name": "实现移动办公",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "实现移动办公",
+      "discovery_time": "2026-03-05 08:30:48"
+    },
+    {
+      "id": 344,
+      "enterprise_name": "满足电子政务移动办公",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "xiazai.sogou.com/政务页面",
+      "known_app_name": "满足电子政务移动办公",
+      "discovery_time": "2026-03-05 08:30:48"
+    },
+    {
+      "id": 345,
+      "enterprise_name": "赣政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "赣政通",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 346,
+      "enterprise_name": "移动政务协同办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "赣政通",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 347,
+      "enterprise_name": "个省直部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "赣政通",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 348,
+      "enterprise_name": "一款移动政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "一款移动政务",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 349,
+      "enterprise_name": "西省移动政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "西省移动政务",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 350,
+      "enterprise_name": "江西省的一款移动政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "江西省的一款移动政务",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 351,
+      "enterprise_name": "江西省移动政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "江西省移动政务",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 352,
+      "enterprise_name": "要下载赣政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "要下载赣政通",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 353,
+      "enterprise_name": "版本的赣政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "版本的赣政通",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 354,
+      "enterprise_name": "年赣政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "年赣政通",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 355,
+      "enterprise_name": "赣政通办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "赣政通",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 356,
+      "enterprise_name": "下载赣政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "下载赣政通",
+      "discovery_time": "2026-03-05 08:31:06"
+    },
+    {
+      "id": 357,
+      "enterprise_name": "江西移动政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "江西移动政务",
+      "discovery_time": "2026-03-05 08:31:20"
+    },
+    {
+      "id": 358,
+      "enterprise_name": "湖北政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "湖北政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 359,
+      "enterprise_name": "鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 360,
+      "enterprise_name": "是由湖北省人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "湖北省政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 361,
+      "enterprise_name": "省人民政府主办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "湖北省政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 362,
+      "enterprise_name": "集政务办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "湖北省政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 363,
+      "enterprise_name": "湖北省政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "湖北省政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 364,
+      "enterprise_name": "集政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "集政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 365,
+      "enterprise_name": "全省统一政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "全省统一政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 366,
+      "enterprise_name": "工业和信息化部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "北省移动政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 367,
+      "enterprise_name": "北省移动政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "北省移动政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 368,
+      "enterprise_name": "湖北省移动政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "湖北省移动政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 369,
+      "enterprise_name": "政务服务鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "湖北政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 370,
+      "enterprise_name": "务服务鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "务服务鄂汇办",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 371,
+      "enterprise_name": "湖北鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 372,
+      "enterprise_name": "湖北省鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 373,
+      "enterprise_name": "湖北政务鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "湖北政务",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 374,
+      "enterprise_name": "北政务鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "北政务鄂汇办",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 375,
+      "enterprise_name": "襄阳市行政审批局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 376,
+      "enterprise_name": "阳市行政审批局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 08:31:41"
+    },
+    {
+      "id": 377,
+      "enterprise_name": "湖北省人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "集政务",
+      "discovery_time": "2026-03-05 08:31:58"
+    },
+    {
+      "id": 378,
+      "enterprise_name": "北省人民政府办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "集政务",
+      "discovery_time": "2026-03-05 08:31:58"
+    },
+    {
+      "id": 379,
+      "enterprise_name": "省政府办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "集政务",
+      "discovery_time": "2026-03-05 08:31:58"
+    },
+    {
+      "id": 380,
+      "enterprise_name": "全省首家厅局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "集政务",
+      "discovery_time": "2026-03-05 08:31:58"
+    },
+    {
+      "id": 381,
+      "enterprise_name": "务事项可鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "集政务",
+      "discovery_time": "2026-03-05 08:31:58"
+    },
+    {
+      "id": 382,
+      "enterprise_name": "证可以上鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "集政务",
+      "discovery_time": "2026-03-05 08:31:58"
+    },
+    {
+      "id": 383,
+      "enterprise_name": "人社专区掌上办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "集政务",
+      "discovery_time": "2026-03-05 08:31:58"
+    },
+    {
+      "id": 384,
+      "enterprise_name": "事项可鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "事项可鄂汇办",
+      "discovery_time": "2026-03-05 08:31:58"
+    },
+    {
+      "id": 385,
+      "enterprise_name": "可以上鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "baike.sogou.com/政务页面",
+      "known_app_name": "可以上鄂汇办",
+      "discovery_time": "2026-03-05 08:31:58"
+    },
+    {
+      "id": 386,
+      "enterprise_name": "苏政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "苏政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 387,
+      "enterprise_name": "公司咨询服务部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "苏政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 388,
+      "enterprise_name": "姓名送公安部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "苏政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 389,
+      "enterprise_name": "证照片送公安部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "苏政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 390,
+      "enterprise_name": "来自苏政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "来自苏政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 391,
+      "enterprise_name": "江苏省人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 392,
+      "enterprise_name": "秦政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "秦政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 393,
+      "enterprise_name": "陕政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "陕政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 394,
+      "enterprise_name": "陕西政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "陕西政务",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 395,
+      "enterprise_name": "运政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "运政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 396,
+      "enterprise_name": "闽政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 397,
+      "enterprise_name": "河南豫政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "河南豫政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 398,
+      "enterprise_name": "豫政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "豫政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 399,
+      "enterprise_name": "农业农村部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "农政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 400,
+      "enterprise_name": "农政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "农政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 401,
+      "enterprise_name": "业农村部政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "业农村部政务",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 402,
+      "enterprise_name": "云政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "云政通",
+      "discovery_time": "2026-03-05 08:32:18"
+    },
+    {
+      "id": 403,
+      "enterprise_name": "位于中国东南部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 404,
+      "enterprise_name": "如秦政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "如秦政通",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 405,
+      "enterprise_name": "河南省测绘地理信息技术中心",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "豫政通",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 406,
+      "enterprise_name": "受河南省大数据管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "豫政通",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 407,
+      "enterprise_name": "将与省大数据中心",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "豫政通",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 408,
+      "enterprise_name": "省大数据管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "豫政通",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 409,
+      "enterprise_name": "年度全省政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 410,
+      "enterprise_name": "濮阳县督查局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 411,
+      "enterprise_name": "河南政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "河南政务",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 412,
+      "enterprise_name": "皖政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "皖政通",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 413,
+      "enterprise_name": "河南省人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "豫政办",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 414,
+      "enterprise_name": "服务中心管理办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "豫政办",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 415,
+      "enterprise_name": "豫政办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "豫政办",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 416,
+      "enterprise_name": "掌政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "掌政通",
+      "discovery_time": "2026-03-05 08:33:03"
+    },
+    {
+      "id": 417,
+      "enterprise_name": "鲁政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "鲁政通",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 418,
+      "enterprise_name": "须学会用哪些办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "你们省的政务",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 419,
+      "enterprise_name": "你们省的政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "你们省的政务",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 420,
+      "enterprise_name": "浙江叫浙政钉",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "浙江叫浙政钉",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 421,
+      "enterprise_name": "广东叫粤政易",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "广东叫粤政易",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 422,
+      "enterprise_name": "山东叫鲁政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "山东叫鲁政通",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 423,
+      "enterprise_name": "山东电子政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "山东电子政务",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 424,
+      "enterprise_name": "晋政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "晋政通",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 425,
+      "enterprise_name": "山西晋政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "山西晋政通",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 426,
+      "enterprise_name": "山东省人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 427,
+      "enterprise_name": "滨政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "滨政通",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 428,
+      "enterprise_name": "山东政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "山东政通",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 429,
+      "enterprise_name": "多类政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "多类政务",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 430,
+      "enterprise_name": "安高新区政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "安高新区政务",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 431,
+      "enterprise_name": "数字政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "数字政通",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 432,
+      "enterprise_name": "万元成立政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "万元成立政通",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 433,
+      "enterprise_name": "行政审批服务局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:33:26"
+    },
+    {
+      "id": 434,
+      "enterprise_name": "年轻干部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "mp.weixin.qq.com/政务页面",
+      "known_app_name": "你们省的政务",
+      "discovery_time": "2026-03-05 08:33:33"
+    },
+    {
+      "id": 435,
+      "enterprise_name": "安卓版闽政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "安卓版闽政通",
+      "discovery_time": "2026-03-05 08:33:51"
+    },
+    {
+      "id": 436,
+      "enterprise_name": "福建政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "福建政务",
+      "discovery_time": "2026-03-05 08:33:51"
+    },
+    {
+      "id": 437,
+      "enterprise_name": "部门协同办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:33:51"
+    },
+    {
+      "id": 438,
+      "enterprise_name": "初步实现群众办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:33:51"
+    },
+    {
+      "id": 439,
+      "enterprise_name": "马上就办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:33:51"
+    },
+    {
+      "id": 440,
+      "enterprise_name": "福建省政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "福建省政务",
+      "discovery_time": "2026-03-05 08:33:51"
+    },
+    {
+      "id": 441,
+      "enterprise_name": "整合全省政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "整合全省政务",
+      "discovery_time": "2026-03-05 08:33:51"
+    },
+    {
+      "id": 442,
+      "enterprise_name": "实现政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "实现政务",
+      "discovery_time": "2026-03-05 08:33:51"
+    },
+    {
+      "id": 443,
+      "enterprise_name": "遵循省委省政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "as.sogou.com/政务页面",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:34:00"
+    },
+    {
+      "id": 444,
+      "enterprise_name": "由福建省数字福建建设领导小组办公室",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "as.sogou.com/政务页面",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:34:00"
+    },
+    {
+      "id": 445,
+      "enterprise_name": "平台整合全省各级政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "as.sogou.com/政务页面",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:34:00"
+    },
+    {
+      "id": 446,
+      "enterprise_name": "遵循省委",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "as.sogou.com/政务页面",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:34:00"
+    },
+    {
+      "id": 447,
+      "enterprise_name": "省政府的战略部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "as.sogou.com/政务页面",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:34:00"
+    },
+    {
+      "id": 448,
+      "enterprise_name": "建设领导小组办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "as.sogou.com/政务页面",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:34:00"
+    },
+    {
+      "id": 449,
+      "enterprise_name": "全省各级政府部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "as.sogou.com/政务页面",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:34:00"
+    },
+    {
+      "id": 450,
+      "enterprise_name": "台的重要组成部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "as.sogou.com/政务页面",
+      "known_app_name": "闽政通",
+      "discovery_time": "2026-03-05 08:34:00"
+    },
+    {
+      "id": 451,
+      "enterprise_name": "建省电子政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "as.sogou.com/政务页面",
+      "known_app_name": "建省电子政务",
+      "discovery_time": "2026-03-05 08:34:00"
+    },
+    {
+      "id": 452,
+      "enterprise_name": "营福建省政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "as.sogou.com/政务页面",
+      "known_app_name": "营福建省政务",
+      "discovery_time": "2026-03-05 08:34:00"
+    },
+    {
+      "id": 453,
+      "enterprise_name": "化互联网政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "as.sogou.com/政务页面",
+      "known_app_name": "化互联网政务",
+      "discovery_time": "2026-03-05 08:34:00"
+    },
+    {
+      "id": 454,
+      "enterprise_name": "是安徽省人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "群众提供政务",
+      "discovery_time": "2026-03-05 08:34:19"
+    },
+    {
+      "id": 455,
+      "enterprise_name": "群众提供政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "群众提供政务",
+      "discovery_time": "2026-03-05 08:34:19"
+    },
+    {
+      "id": 456,
+      "enterprise_name": "推广移动政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "推广移动政务",
+      "discovery_time": "2026-03-05 08:34:19"
+    },
+    {
+      "id": 457,
+      "enterprise_name": "是安徽推广移动政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "是安徽推广移动政务",
+      "discovery_time": "2026-03-05 08:34:19"
+    },
+    {
+      "id": 458,
+      "enterprise_name": "皖事通办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 08:34:19"
+    },
+    {
+      "id": 459,
+      "enterprise_name": "安徽政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 08:34:19"
+    },
+    {
+      "id": 460,
+      "enterprise_name": "芜湖市政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "芜湖市政务",
+      "discovery_time": "2026-03-05 08:34:19"
+    },
+    {
+      "id": 461,
+      "enterprise_name": "陕西省人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 462,
+      "enterprise_name": "四川省政务",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "四川省政务",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 463,
+      "enterprise_name": "四川地区政务",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "四川地区政务",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 464,
+      "enterprise_name": "四川省政务微信",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "四川省政务微信",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 465,
+      "enterprise_name": "目前四川地区政务微信",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "目前四川地区政务微信",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 466,
+      "enterprise_name": "方正式版政务",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "方正式版政务",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 467,
+      "enterprise_name": "新官方正式版政务微信",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "新官方正式版政务微信",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 468,
+      "enterprise_name": "腾讯政务",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "腾讯政务",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 469,
+      "enterprise_name": "腾讯政务微信",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "腾讯政务微信",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 470,
+      "enterprise_name": "信是什么政务",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "信是什么政务",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 471,
+      "enterprise_name": "务微信是什么政务微信",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "务微信是什么政务微信",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 472,
+      "enterprise_name": "最新政务",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "最新政务",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 473,
+      "enterprise_name": "最新政务微信",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "最新政务微信",
+      "discovery_time": "2026-03-05 08:35:18"
+    },
+    {
+      "id": 474,
+      "enterprise_name": "四川省人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 475,
+      "enterprise_name": "潍坊市人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 476,
+      "enterprise_name": "黑龙江省人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 477,
+      "enterprise_name": "可通过黑龙江省人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 478,
+      "enterprise_name": "连云港市人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 479,
+      "enterprise_name": "灌云县人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 480,
+      "enterprise_name": "灌南县人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 481,
+      "enterprise_name": "连云区人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 482,
+      "enterprise_name": "寿光市人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 483,
+      "enterprise_name": "安丘市人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 484,
+      "enterprise_name": "高密市人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 485,
+      "enterprise_name": "昌邑市人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 486,
+      "enterprise_name": "临朐县人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 487,
+      "enterprise_name": "昌乐县人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 488,
+      "enterprise_name": "阜新市人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 489,
+      "enterprise_name": "马鞍山市人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 490,
+      "enterprise_name": "马鞍山市政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 491,
+      "enterprise_name": "含山县人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 492,
+      "enterprise_name": "湖北省人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 493,
+      "enterprise_name": "行政审批局",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 494,
+      "enterprise_name": "包括省直部",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 495,
+      "enterprise_name": "阜新市国资委",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 496,
+      "enterprise_name": "山市人民政府办",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 497,
+      "enterprise_name": "服务管理局",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 498,
+      "enterprise_name": "政务微信部",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 499,
+      "enterprise_name": "信在数字政务",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 500,
+      "enterprise_name": "讲政务",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "讲政务",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 501,
+      "enterprise_name": "鄂汇办",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 08:35:36"
+    },
+    {
+      "id": 502,
+      "enterprise_name": "高效内部",
+      "product_line": "飞书",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:35:56"
+    },
+    {
+      "id": 503,
+      "enterprise_name": "在学校网信办",
+      "product_line": "飞书",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:35:56"
+    },
+    {
+      "id": 504,
+      "enterprise_name": "高效内部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "www.itangsoft.com/政务页面",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:13"
+    },
+    {
+      "id": 505,
+      "enterprise_name": "一款高效的内部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "www.itangsoft.com/政务页面",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:13"
+    },
+    {
+      "id": 506,
+      "enterprise_name": "化工作流程的办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "www.itangsoft.com/政务页面",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:13"
+    },
+    {
+      "id": 507,
+      "enterprise_name": "值得信赖的内部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "www.itangsoft.com/政务页面",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:13"
+    },
+    {
+      "id": 508,
+      "enterprise_name": "了一款高效内部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "www.itangsoft.com/政务页面",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:13"
+    },
+    {
+      "id": 509,
+      "enterprise_name": "本文内容部",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "www.itangsoft.com/政务页面",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:13"
+    },
+    {
+      "id": 510,
+      "enterprise_name": "会员管理办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "www.itangsoft.com/政务页面",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:13"
+    },
+    {
+      "id": 511,
+      "enterprise_name": "可以使用办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "www.itangsoft.com/政务页面",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:13"
+    },
+    {
+      "id": 512,
+      "enterprise_name": "区城管执法局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 513,
+      "enterprise_name": "泰政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "泰政通",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 514,
+      "enterprise_name": "年黔西县公安局法治政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 515,
+      "enterprise_name": "年黔西县公安局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 516,
+      "enterprise_name": "国家税务总局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 517,
+      "enterprise_name": "定州市税务局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 518,
+      "enterprise_name": "江苏省政务服务管理办公室",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "江苏省政务",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 519,
+      "enterprise_name": "政务服务管理办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "江苏省政务",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 520,
+      "enterprise_name": "江苏省政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "江苏省政务",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 521,
+      "enterprise_name": "力云集镇提升办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 522,
+      "enterprise_name": "拉萨市人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 523,
+      "enterprise_name": "姑苏区政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "姑苏区政务",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 524,
+      "enterprise_name": "舰店在省政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "舰店在省政务",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 525,
+      "enterprise_name": "巢湖市人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 526,
+      "enterprise_name": "正式上线政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "正式上线政务",
+      "discovery_time": "2026-03-05 08:36:29"
+    },
+    {
+      "id": 527,
+      "enterprise_name": "宁津县人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 528,
+      "enterprise_name": "政府政务服务办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "人民政府政务",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 529,
+      "enterprise_name": "人民政府政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "人民政府政务",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 530,
+      "enterprise_name": "彩票骗局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 531,
+      "enterprise_name": "张家港市公安局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 532,
+      "enterprise_name": "淮阴工学院",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 533,
+      "enterprise_name": "泰山区人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 534,
+      "enterprise_name": "市泰山区人社局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 535,
+      "enterprise_name": "广元市应急管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 536,
+      "enterprise_name": "元市应急管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 537,
+      "enterprise_name": "池州市人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 538,
+      "enterprise_name": "福州市台江区人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 539,
+      "enterprise_name": "衡阳市公安局",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:38:29"
+    },
+    {
+      "id": 540,
+      "enterprise_name": "武汉市美好社会工作服务中心",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:40:31"
+    },
+    {
+      "id": 541,
+      "enterprise_name": "上海市长宁区人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:40:31"
+    },
+    {
+      "id": 542,
+      "enterprise_name": "长宁区商务委",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:40:31"
+    },
+    {
+      "id": 543,
+      "enterprise_name": "积极服务远程办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:40:31"
+    },
+    {
+      "id": 544,
+      "enterprise_name": "经济和信息化局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:40:31"
+    },
+    {
+      "id": 545,
+      "enterprise_name": "旅游广电体育局",
+      "product_line": "飞书",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:40:31"
+    },
+    {
+      "id": 546,
+      "enterprise_name": "推动常委",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:40:31"
+    },
+    {
+      "id": 547,
+      "enterprise_name": "建设银行",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:42:41"
+    },
+    {
+      "id": 548,
+      "enterprise_name": "试水企业微信客户社群运营的春秋航空",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:42:41"
+    },
+    {
+      "id": 549,
+      "enterprise_name": "中国软件公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:44:43"
+    },
+    {
+      "id": 551,
+      "enterprise_name": "螳螂科技",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:46:45"
+    },
+    {
+      "id": 552,
+      "enterprise_name": "发送信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:48:48"
+    },
+    {
+      "id": 553,
+      "enterprise_name": "企业微信的后缀会显示公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:50:43"
+    },
+    {
+      "id": 554,
+      "enterprise_name": "部分公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:50:43"
+    },
+    {
+      "id": 555,
+      "enterprise_name": "会直接使用公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:50:43"
+    },
+    {
+      "id": 556,
+      "enterprise_name": "企业微信是很多公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:50:43"
+    },
+    {
+      "id": 557,
+      "enterprise_name": "随着互联网",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:50:43"
+    },
+    {
+      "id": 558,
+      "enterprise_name": "企业微信是腾讯官方推出的公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:50:43"
+    },
+    {
+      "id": 559,
+      "enterprise_name": "适合企业微信营销的行业与公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:52:40"
+    },
+    {
+      "id": 561,
+      "enterprise_name": "企业微信最适合什么公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:52:40"
+    },
+    {
+      "id": 562,
+      "enterprise_name": "某国有银行",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:52:40"
+    },
+    {
+      "id": 563,
+      "enterprise_name": "对于口腔医院",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:54:20"
+    },
+    {
+      "id": 564,
+      "enterprise_name": "传统的口腔医院",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:54:20"
+    },
+    {
+      "id": 565,
+      "enterprise_name": "获取最新的口腔治疗服务信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:54:20"
+    },
+    {
+      "id": 566,
+      "enterprise_name": "发布口腔保健资讯等信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:54:20"
+    },
+    {
+      "id": 567,
+      "enterprise_name": "预约提示等信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:54:20"
+    },
+    {
+      "id": 568,
+      "enterprise_name": "快速高效收集一线的患者信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:54:20"
+    },
+    {
+      "id": 569,
+      "enterprise_name": "叙简科技",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:54:41"
+    },
+    {
+      "id": 570,
+      "enterprise_name": "创业公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:54:41"
+    },
+    {
+      "id": 571,
+      "enterprise_name": "亿元收购酷学院",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 08:58:29"
+    },
+    {
+      "id": 572,
+      "enterprise_name": "且能满足你公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 573,
+      "enterprise_name": "最给我们公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 574,
+      "enterprise_name": "使用钉钉的大公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 575,
+      "enterprise_name": "我的信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 576,
+      "enterprise_name": "随着企业信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 577,
+      "enterprise_name": "钉钉对公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 578,
+      "enterprise_name": "这时候钉钉就成了我们公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 579,
+      "enterprise_name": "钉钉为什么有这么多公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 580,
+      "enterprise_name": "是阿里巴巴集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 581,
+      "enterprise_name": "刚创业的小公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 582,
+      "enterprise_name": "钉钉的功能可以满足创业公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 583,
+      "enterprise_name": "不仅能满足大公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 584,
+      "enterprise_name": "像我们自己的公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:02:12"
+    },
+    {
+      "id": 586,
+      "enterprise_name": "让企业随时可能暴露于信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:06:02"
+    },
+    {
+      "id": 587,
+      "enterprise_name": "深度服务于中国企业数字化转型的科技",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:06:02"
+    },
+    {
+      "id": 588,
+      "enterprise_name": "已签约理想汽车",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:06:22"
+    },
+    {
+      "id": 589,
+      "enterprise_name": "余家公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:06:22"
+    },
+    {
+      "id": 591,
+      "enterprise_name": "飞书与银泰集团",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:06:22"
+    },
+    {
+      "id": 593,
+      "enterprise_name": "中国软件公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:08:20"
+    },
+    {
+      "id": 594,
+      "enterprise_name": "到底喜欢投什么样的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:08:20"
+    },
+    {
+      "id": 595,
+      "enterprise_name": "亚朵集团",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:09:56"
+    },
+    {
+      "id": 596,
+      "enterprise_name": "亚马逊云科技",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:11:54"
+    },
+    {
+      "id": 597,
+      "enterprise_name": "开发公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:13:47"
+    },
+    {
+      "id": 598,
+      "enterprise_name": "适合什么类型的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:13:47"
+    },
+    {
+      "id": 599,
+      "enterprise_name": "盘点飞书新签约客户制造",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:15:57"
+    },
+    {
+      "id": 600,
+      "enterprise_name": "润芯微科技",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:15:57"
+    },
+    {
+      "id": 601,
+      "enterprise_name": "新疆汇嘉时代携手飞书开启数字科技",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:15:57"
+    },
+    {
+      "id": 602,
+      "enterprise_name": "半年内飞书已收获理想汽车",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:15:57"
+    },
+    {
+      "id": 603,
+      "enterprise_name": "在飞书后台实现电子",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:15:57"
+    },
+    {
+      "id": 604,
+      "enterprise_name": "第一波看到了这些优秀产品实践的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 605,
+      "enterprise_name": "是不是拿到了行业头部公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 606,
+      "enterprise_name": "我把整个公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 607,
+      "enterprise_name": "互联网科技",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 608,
+      "enterprise_name": "有的是互联网",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 609,
+      "enterprise_name": "只是说对于一个比较大型的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 610,
+      "enterprise_name": "但是从公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 611,
+      "enterprise_name": "好像没有什么公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 612,
+      "enterprise_name": "并且能让整个公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 613,
+      "enterprise_name": "只是说到了一个大型公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 614,
+      "enterprise_name": "节跳动是它这些实践来源的第一家公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 615,
+      "enterprise_name": "我们未来还会有更多的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 616,
+      "enterprise_name": "我们现在跟理想汽车",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 617,
+      "enterprise_name": "我们根据承载最佳实践公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 618,
+      "enterprise_name": "往后再实现公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 619,
+      "enterprise_name": "未来会有越来越多的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 620,
+      "enterprise_name": "如果字节跳动要承接很多优秀公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 621,
+      "enterprise_name": "你谈到说优秀公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 622,
+      "enterprise_name": "如果我们去看世界上这些公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 623,
+      "enterprise_name": "他们很多公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 624,
+      "enterprise_name": "最后发现是非常少个位数数量的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 625,
+      "enterprise_name": "世界上的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 626,
+      "enterprise_name": "并且在公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 627,
+      "enterprise_name": "这些优秀公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 628,
+      "enterprise_name": "家知道字节跳动是一个很有特点的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 629,
+      "enterprise_name": "大家觉得什么公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 630,
+      "enterprise_name": "好像什么公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 631,
+      "enterprise_name": "经常跟我说能不能组织我们公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 632,
+      "enterprise_name": "我们不认为照搬到其他公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 633,
+      "enterprise_name": "是否在一个传统大公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 634,
+      "enterprise_name": "的实践和我们公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 635,
+      "enterprise_name": "才让字节跳动这家公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 636,
+      "enterprise_name": "本质上不是借助这家公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 637,
+      "enterprise_name": "其实传统的安全和信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 638,
+      "enterprise_name": "所以应该有新一代的信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 639,
+      "enterprise_name": "很多时候我们不是坐在公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 640,
+      "enterprise_name": "字节跳动是一个全球化非常成功的公司",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:17:42"
+    },
+    {
+      "id": 874,
+      "enterprise_name": "聚焦两会丨制造",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 09:59:48"
+    },
+    {
+      "id": 881,
+      "enterprise_name": "科技有限公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:00:09"
+    },
+    {
+      "id": 882,
+      "enterprise_name": "信息技术有限公司",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"企业微信\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:00:09"
+    },
+    {
+      "id": 919,
+      "enterprise_name": "客户简介某药房连锁集团",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:01:45"
+    },
+    {
+      "id": 927,
+      "enterprise_name": "很多公司",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 定制版",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:02:36"
+    },
+    {
+      "id": 928,
+      "enterprise_name": "把公司附近的基站信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 定制版",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:02:36"
+    },
+    {
+      "id": 929,
+      "enterprise_name": "或宽带相关信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 定制版",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:02:36"
+    },
+    {
+      "id": 945,
+      "enterprise_name": "钉钉客流续费订单号明细信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"钉钉\" 客户列表",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:03:27"
+    },
+    {
+      "id": 974,
+      "enterprise_name": "无需担心遗忘传递信息",
+      "product_line": "钉钉",
+      "industry": "",
+      "source": "搜索引擎/bing/\"钉钉\" 签约",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:04:02"
+    },
+    {
+      "id": 1001,
+      "enterprise_name": "泡芙传媒",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 合作案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:06:04"
+    },
+    {
+      "id": 1002,
+      "enterprise_name": "打造传媒",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "搜索引擎/sogou/\"飞书\" 合作案例",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:06:04"
+    },
+    {
+      "id": 1008,
+      "enterprise_name": "快递快运物流",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:06:09"
+    },
+    {
+      "id": 1009,
+      "enterprise_name": "百万快递快运物流",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:06:09"
+    },
+    {
+      "id": 1010,
+      "enterprise_name": "国内头部物流",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:06:09"
+    },
+    {
+      "id": 1011,
+      "enterprise_name": "加速推进全集团",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:06:09"
+    },
+    {
+      "id": 1012,
+      "enterprise_name": "以及线上线下的信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:06:09"
+    },
+    {
+      "id": 1013,
+      "enterprise_name": "沟通群都存在信息",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:06:09"
+    },
+    {
+      "id": 1014,
+      "enterprise_name": "中国会取代美国成第一汽车",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:06:09"
+    },
+    {
+      "id": 1015,
+      "enterprise_name": "福特等汽车",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:06:09"
+    },
+    {
+      "id": 1016,
+      "enterprise_name": "正加投亚洲港口物流",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "mp.weixin.qq.com/文章提取",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:06:09"
+    },
+    {
+      "id": 1115,
+      "enterprise_name": "是湖北省政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "为湖北省政务",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1116,
+      "enterprise_name": "以下是对鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "为湖北省政务",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1117,
+      "enterprise_name": "府打造的网上办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "为湖北省政务",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1118,
+      "enterprise_name": "为湖北省政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "为湖北省政务",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1120,
+      "enterprise_name": "下是对鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "下是对鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1121,
+      "enterprise_name": "如果鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "湖北公安政务",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1122,
+      "enterprise_name": "湖北公安政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "湖北公安政务",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1123,
+      "enterprise_name": "调档函在鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1124,
+      "enterprise_name": "否开通了网上办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1125,
+      "enterprise_name": "登录鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1126,
+      "enterprise_name": "打开鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1127,
+      "enterprise_name": "档函在鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "档函在鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1128,
+      "enterprise_name": "使用鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1129,
+      "enterprise_name": "想知道怎么办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1130,
+      "enterprise_name": "家带来了鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1131,
+      "enterprise_name": "带来了鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "带来了鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1132,
+      "enterprise_name": "小程序及鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "湖北政务",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1134,
+      "enterprise_name": "息在湖北政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "息在湖北政务",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1135,
+      "enterprise_name": "通过湖北政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "通过湖北政务",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1136,
+      "enterprise_name": "程序及鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "程序及鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1137,
+      "enterprise_name": "们就知道鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1138,
+      "enterprise_name": "就知道鄂汇办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "就知道鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1139,
+      "enterprise_name": "居民参保登记办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1140,
+      "enterprise_name": "选择需要办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "鄂汇办",
+      "discovery_time": "2026-03-05 10:10:23"
+    },
+    {
+      "id": 1186,
+      "enterprise_name": "将按照省自然资源厅和省大数据管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "mp.weixin.qq.com/政务页面",
+      "known_app_name": "豫政通",
+      "discovery_time": "2026-03-05 10:12:02"
+    },
+    {
+      "id": 1187,
+      "enterprise_name": "浏览河南省测绘地理信息技术中心",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "mp.weixin.qq.com/政务页面",
+      "known_app_name": "豫政通",
+      "discovery_time": "2026-03-05 10:12:02"
+    },
+    {
+      "id": 1188,
+      "enterprise_name": "河南省测绘地理信息局信息中心",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "mp.weixin.qq.com/政务页面",
+      "known_app_name": "豫政通",
+      "discovery_time": "2026-03-05 10:12:02"
+    },
+    {
+      "id": 1189,
+      "enterprise_name": "定期召开联合办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "mp.weixin.qq.com/政务页面",
+      "known_app_name": "豫政通",
+      "discovery_time": "2026-03-05 10:12:02"
+    },
+    {
+      "id": 1190,
+      "enterprise_name": "测绘地理信息局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "mp.weixin.qq.com/政务页面",
+      "known_app_name": "豫政通",
+      "discovery_time": "2026-03-05 10:12:02"
+    },
+    {
+      "id": 1191,
+      "enterprise_name": "为政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "mp.weixin.qq.com/政务页面",
+      "known_app_name": "为政务",
+      "discovery_time": "2026-03-05 10:12:02"
+    },
+    {
+      "id": 1218,
+      "enterprise_name": "福建省闽政通",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "福建省闽政通",
+      "discovery_time": "2026-03-05 10:12:50"
+    },
+    {
+      "id": 1230,
+      "enterprise_name": "淮南市人民政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:27"
+    },
+    {
+      "id": 1231,
+      "enterprise_name": "淮南市数据资源管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:27"
+    },
+    {
+      "id": 1232,
+      "enterprise_name": "淮南市政务服务管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:27"
+    },
+    {
+      "id": 1233,
+      "enterprise_name": "南市人民政府办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:27"
+    },
+    {
+      "id": 1234,
+      "enterprise_name": "数据资源管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:27"
+    },
+    {
+      "id": 1235,
+      "enterprise_name": "政务服务管理局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:27"
+    },
+    {
+      "id": 1237,
+      "enterprise_name": "淮南市政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "淮南市政务",
+      "discovery_time": "2026-03-05 10:13:27"
+    },
+    {
+      "id": 1238,
+      "enterprise_name": "安全资格证书办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/bing",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:13:27"
+    },
+    {
+      "id": 1245,
+      "enterprise_name": "跨省通办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1246,
+      "enterprise_name": "长三角一网通办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1247,
+      "enterprise_name": "全程网办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1248,
+      "enterprise_name": "聚焦群众办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1249,
+      "enterprise_name": "在线帮办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1250,
+      "enterprise_name": "授权代办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1251,
+      "enterprise_name": "为企业办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1252,
+      "enterprise_name": "业提供视频导办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1253,
+      "enterprise_name": "企业开办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1254,
+      "enterprise_name": "你问我办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1255,
+      "enterprise_name": "一网通办",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1256,
+      "enterprise_name": "多元赋能破局",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "安徽政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1257,
+      "enterprise_name": "国家政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "国家政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1258,
+      "enterprise_name": "推动政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "推动政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1259,
+      "enterprise_name": "小时政务",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "小时政务",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1260,
+      "enterprise_name": "国家政务平台",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "hn.ahzwfw.gov.cn/政务页面",
+      "known_app_name": "国家政务平台",
+      "discovery_time": "2026-03-05 10:13:40"
+    },
+    {
+      "id": 1281,
+      "enterprise_name": "当涂县人民政府",
+      "product_line": "企业微信",
+      "industry": "政务",
+      "source": "www.sogou.com/政务页面",
+      "known_app_name": "信在数字政务",
+      "discovery_time": "2026-03-05 10:14:14"
+    },
+    {
+      "id": 1300,
+      "enterprise_name": "科技智能远程办",
+      "product_line": "飞书",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:14:32"
+    },
+    {
+      "id": 1301,
+      "enterprise_name": "南开大学医保办",
+      "product_line": "飞书",
+      "industry": "政务",
+      "source": "mp.weixin.qq.com/政务页面",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:15:17"
+    },
+    {
+      "id": 1325,
+      "enterprise_name": "松原宁江区政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:17:38"
+    },
+    {
+      "id": 1326,
+      "enterprise_name": "常德市政府",
+      "product_line": "钉钉",
+      "industry": "政务",
+      "source": "政务搜索/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:17:38"
+    },
+    {
+      "id": 1344,
+      "enterprise_name": "对外信息",
+      "product_line": "企业微信",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:29:58"
+    },
+    {
+      "id": 1382,
+      "enterprise_name": "飞书与伊芙丽集团",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:55:16"
+    },
+    {
+      "id": 1383,
+      "enterprise_name": "圣象集团",
+      "product_line": "飞书",
+      "industry": "",
+      "source": "新闻摘要/sogou",
+      "known_app_name": "",
+      "discovery_time": "2026-03-05 10:55:16"
+    }
+  ]
+}

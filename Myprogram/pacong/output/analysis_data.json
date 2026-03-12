@@ -1,0 +1,569 @@
+{
+  "feishu": [
+    {
+      "pkg": "com.ss.android.lark.ce",
+      "name": "飞书信创版",
+      "ent": "北京飞书科技有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.ss.android.lark.dabcsy97",
+      "name": "某大型物流飞书",
+      "ent": "某大型物流企业",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.dagtjt11",
+      "name": "数字国投",
+      "ent": "国家开发投资集团有限公司",
+      "source": "安粉丝网",
+      "method": "search_engine_verified"
+    },
+    {
+      "pkg": "com.ss.android.lark.dahngd31",
+      "name": "华南电网飞书",
+      "ent": "华南电网",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.dai39dl9",
+      "name": "某省级实验室飞书",
+      "ent": "某省级实验室",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.dajzjt26",
+      "name": "江苏建投(江办)",
+      "ent": "江苏省建设投资集团",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.dajzkx436",
+      "name": "中建某局飞书",
+      "ent": "中国建筑集团某局",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.dastw29",
+      "name": "某地市级水务飞书",
+      "ent": "某地市级水务企业",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.greentown",
+      "name": "绿城飞书",
+      "ent": "绿城中国控股有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.ss.android.lark.hongyuntong",
+      "name": "鸿运移动门户",
+      "ent": "北京字节跳动科技有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.ss.android.lark.htone",
+      "name": "华通3.0",
+      "ent": "华住集团有限公司",
+      "source": "火鸟手游网",
+      "method": "search_engine_verified"
+    },
+    {
+      "pkg": "com.ss.android.lark.ihaier",
+      "name": "iHaier(海尔飞书)",
+      "ent": "海尔集团公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.ss.android.lark.jxlh",
+      "name": "吉祥领航",
+      "ent": "上海吉祥航空股份有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.ss.android.lark.ka31",
+      "name": "飞书",
+      "ent": "北京飞书科技有限公司",
+      "source": "应用宝",
+      "method": "known_feishu_custom"
+    },
+    {
+      "pkg": "com.ss.android.lark.kaahyz17",
+      "name": "i讯飞",
+      "ent": "科大讯飞股份有限公司",
+      "source": "火鸟手游网",
+      "method": "search_engine_verified"
+    },
+    {
+      "pkg": "com.ss.android.lark.kacf",
+      "name": "某核心部委飞书",
+      "ent": "某核心部委",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.kacrc",
+      "name": "工作说说",
+      "ent": "深圳市玄关健康科技有限公司",
+      "source": "应用宝",
+      "method": "known_feishu_custom"
+    },
+    {
+      "pkg": "com.ss.android.lark.kacw",
+      "name": "某外资咨询飞书",
+      "ent": "某外资咨询机构",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.kahzyx88",
+      "name": "杭州互联网飞书",
+      "ent": "杭州某互联网企业",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.kalanhe",
+      "name": "蓝河飞书",
+      "ent": "蓝河营养品股份有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.ss.android.lark.kami",
+      "name": "飞书",
+      "ent": "北京飞书科技有限公司",
+      "source": "应用宝",
+      "method": "known_feishu_custom"
+    },
+    {
+      "pkg": "com.ss.android.lark.kanewhope",
+      "name": "新希望飞书",
+      "ent": "新希望六和股份有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.ss.android.lark.kazdtq",
+      "name": "某电子产业飞书",
+      "ent": "某电子产业集团",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.kazsy73",
+      "name": "某大型车企飞书",
+      "ent": "某大型车企",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.lite",
+      "name": "飞书",
+      "ent": "北京飞书科技有限公司",
+      "source": "应用宝",
+      "method": "known_feishu_custom"
+    },
+    {
+      "pkg": "com.ss.android.lark.mdzh",
+      "name": "美的智慧",
+      "ent": "美的集团股份有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.ss.android.lark.pls",
+      "name": "普洛斯(GLP)",
+      "ent": "普洛斯投资管理(中国)有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.ss.android.lark.rongchuang",
+      "name": "融e商城",
+      "ent": "北京融生活科技有限公司",
+      "source": "应用宝",
+      "method": "known_feishu_custom"
+    },
+    {
+      "pkg": "com.ss.android.lark.sa83b7j6",
+      "name": "正泰-泰墅",
+      "ent": "正泰安能数字能源（浙江）股份有限公司",
+      "source": "应用宝",
+      "method": "known_feishu_custom"
+    },
+    {
+      "pkg": "com.ss.android.lark.sahlzj17",
+      "name": "海伦哲飞书",
+      "ent": "徐州海伦哲专用车辆股份有限公司",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.samhzo3j",
+      "name": "梅州政务飞书",
+      "ent": "梅州市人民政府",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.sapdl18",
+      "name": "胖东来",
+      "ent": "胖东来商贸集团有限公司",
+      "source": "IT168",
+      "method": "search_engine_verified"
+    },
+    {
+      "pkg": "com.ss.android.lark.sarq2tpv",
+      "name": "华润燃气飞书",
+      "ent": "华润燃气控股有限公司",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.saxdz51",
+      "name": "浦东投控飞书",
+      "ent": "上海浦东投资控股(集团)有限公司",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.saxmsa",
+      "name": "中国海事飞书(旧版)",
+      "ent": "中华人民共和国海事局",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.saxmsa667",
+      "name": "中国海事飞书(新版)",
+      "ent": "中华人民共和国海事局",
+      "source": "用户确认+包名分析",
+      "method": "user_confirmed_package_analysis"
+    },
+    {
+      "pkg": "com.ss.android.lark.sc",
+      "name": "顺丰速运(SF-Work)",
+      "ent": "顺丰控股股份有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.ss.android.lark.weifu",
+      "name": "威孚飞书",
+      "ent": "无锡威孚高科技集团股份有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    }
+  ],
+  "dingding": [
+    {
+      "pkg": "com.alibaba.android.rimet.adt",
+      "name": "一汽奥迪钉钉",
+      "ent": "一汽-大众汽车有限公司奥迪品牌",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.aliding",
+      "name": "阿里钉",
+      "ent": "阿里巴巴集团",
+      "source": "IT168",
+      "method": "search_engine_verified"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.bgyfw",
+      "name": "碧桂园服务钉钉",
+      "ent": "碧桂园服务控股有限公司",
+      "source": "新闻报道确认",
+      "method": "news_verified"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.bitding",
+      "name": "兴业证券优理宝",
+      "ent": "兴业证券股份有限公司",
+      "source": "应用宝",
+      "method": "known_dingding_custom"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.catlcome",
+      "name": "宁德时代钉钉",
+      "ent": "宁德时代新能源科技股份有限公司",
+      "source": "新闻报道确认",
+      "method": "news_verified"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.ccflink",
+      "name": "CCFLink",
+      "ent": "中国计算机学会(CCF)",
+      "source": "极客公园",
+      "method": "search_engine_verified"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.czd",
+      "name": "楚政钉",
+      "ent": "湖北省人民政府办公厅",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.diswu",
+      "name": "迪士尼钉钉(内测)",
+      "ent": "上海迪士尼度假区",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.edu",
+      "name": "钉钉教育定制版",
+      "ent": "钉钉(中国)信息技术有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.faw_easy",
+      "name": "巨懂车",
+      "ent": "重庆万象优车科技有限公司",
+      "source": "应用宝",
+      "method": "known_dingding_custom"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.fdyfn",
+      "name": "复旦大学校园钉",
+      "ent": "复旦大学",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.fosun",
+      "name": "复星钉钉",
+      "ent": "复星国际有限公司",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.rimm",
+      "name": "北理工校园钉",
+      "ent": "北京理工大学",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.alibaba.android.rimet.zj",
+      "name": "浙政钉(早期版本)",
+      "ent": "浙江省大数据发展管理局",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    }
+  ],
+  "taurus": [
+    {
+      "pkg": "com.alibaba.taurus.anhui",
+      "name": "皖政通",
+      "ent": "安徽省大数据中心",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.alibaba.taurus.changchun",
+      "name": "长春政务钉",
+      "ent": "长春市人民政府办公厅",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.alibaba.taurus.chongqing",
+      "name": "渝快政",
+      "ent": "重庆数字资源集团有限公司",
+      "source": "应用宝",
+      "method": "known_taurus_custom"
+    },
+    {
+      "pkg": "com.alibaba.taurus.cpic",
+      "name": "太好钉",
+      "ent": "中国太平洋保险(集团)股份有限公司",
+      "source": "安粉丝网",
+      "method": "search_engine_verified"
+    },
+    {
+      "pkg": "com.alibaba.taurus.fujian",
+      "name": "闽政钉",
+      "ent": "福建省经济信息中心",
+      "source": "9K9K应用市场",
+      "method": "search_engine_verified"
+    },
+    {
+      "pkg": "com.alibaba.taurus.hainan",
+      "name": "海政通信创版",
+      "ent": "海南省大数据管理局",
+      "source": "应用宝",
+      "method": "known_taurus_custom"
+    },
+    {
+      "pkg": "com.alibaba.taurus.hainanxc",
+      "name": "海政通信创版",
+      "ent": "海南省大数据管理局",
+      "source": "应用宝",
+      "method": "known_taurus_custom"
+    },
+    {
+      "pkg": "com.alibaba.taurus.hengdadingems",
+      "name": "恒大Gems适配",
+      "ent": "恒大集团",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.alibaba.taurus.jiangxi",
+      "name": "赣政通",
+      "ent": "江西省大数据中心",
+      "source": "当下软件园",
+      "method": "search_engine_verified"
+    },
+    {
+      "pkg": "com.alibaba.taurus.ningxia",
+      "name": "宁政通(旧)",
+      "ent": "宁夏回族自治区人民政府办公厅",
+      "source": "用户确认+搜索辅证",
+      "method": "user_confirmed_search_assisted"
+    },
+    {
+      "pkg": "com.alibaba.taurus.ningxianew",
+      "name": "贵政通",
+      "ent": "贵州大数据产业集团有限公司",
+      "source": "应用宝",
+      "method": "known_taurus_custom"
+    },
+    {
+      "pkg": "com.alibaba.taurus.qzt",
+      "name": "秦政通",
+      "ent": "陕西省政务大数据服务中心",
+      "source": "IT168",
+      "method": "search_engine_verified"
+    },
+    {
+      "pkg": "com.alibaba.taurus.xxxs",
+      "name": "学习兴税",
+      "ent": "国家税务总局",
+      "source": "当下软件园",
+      "method": "search_engine_verified"
+    },
+    {
+      "pkg": "com.alibaba.taurus.zhejiang",
+      "name": "浙政钉",
+      "ent": "数字浙江技术运营有限公司",
+      "source": "应用宝",
+      "method": "snowball_round_1"
+    },
+    {
+      "pkg": "com.alibaba.taurus.zhengzhou",
+      "name": "帮办管家",
+      "ent": "武汉沁煜网络科技有限公司",
+      "source": "应用宝",
+      "method": "known_taurus_custom"
+    }
+  ],
+  "wecom": [
+    {
+      "pkg": "com.tencent.wework",
+      "name": "企业微信",
+      "ent": "广州腾讯科技有限公司",
+      "source": "应用宝",
+      "method": "known_package_verify"
+    },
+    {
+      "pkg": "com.tencent.weworkenterprise",
+      "name": "企业微信私有版",
+      "ent": "广州腾讯科技有限公司",
+      "source": "应用宝",
+      "method": "snowball_round_1"
+    },
+    {
+      "pkg": "com.tencent.weworklocal",
+      "name": "政务微信",
+      "ent": "广州腾讯科技有限公司",
+      "source": "应用宝",
+      "method": "snowball_round_1"
+    }
+  ],
+  "product_line_stats": [
+    {
+      "pl": "办公协同",
+      "count": 9196
+    },
+    {
+      "pl": "企业微信",
+      "count": 520
+    },
+    {
+      "pl": "钉钉",
+      "count": 62
+    },
+    {
+      "pl": "飞书",
+      "count": 61
+    },
+    {
+      "pl": "政务服务",
+      "count": 11
+    }
+  ],
+  "method_stats": [
+    {
+      "method": "snowball_round_2",
+      "count": 4705
+    },
+    {
+      "method": "snowball_round_3",
+      "count": 3938
+    },
+    {
+      "method": "snowball_round_1",
+      "count": 1025
+    },
+    {
+      "method": "known_package_verify",
+      "count": 115
+    },
+    {
+      "method": "user_confirmed_search_assisted",
+      "count": 23
+    },
+    {
+      "method": "user_confirmed_package_analysis",
+      "count": 17
+    },
+    {
+      "method": "search_engine_verified",
+      "count": 11
+    },
+    {
+      "method": "known_taurus_custom",
+      "count": 6
+    },
+    {
+      "method": "known_feishu_custom",
+      "count": 6
+    },
+    {
+      "method": "news_verified",
+      "count": 2
+    },
+    {
+      "method": "known_dingding_custom",
+      "count": 2
+    }
+  ],
+  "total": 9850
+}

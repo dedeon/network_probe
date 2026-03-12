@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+*.log.*
+
+# Database
+*.db
+
+# IDE
+.codebuddy/
+
+# Other workspace files (only commit pacong)
+docs/
+public/
+server.js
+server.py
+server.log
+package.json
