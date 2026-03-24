@@ -1,13 +1,18 @@
 """主窗口"""
 from PyQt6.QtWidgets import (
-    QMainWindow, QTabWidget, QStatusBar, QWidget, QVBoxLayout
+    QMainWindow, QTabWidget, QStatusBar, QWidget, QVBoxLayout,
+    QMessageBox, QMenuBar
 )
 from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QFont, QIcon
+from PyQt6.QtGui import QFont, QIcon, QAction
 
-from .instant_panel import InstantProbePanel
-from .longterm_panel import LongtermProbePanel
-from ..storage.manager import StorageManager
+APP_NAME = "小D网络拨测工具"
+APP_VERSION = "1.0.0"
+APP_DEVELOPER_EMAIL = "xudong.cn@gmail.com"
+
+from ui.instant_panel import InstantProbePanel
+from ui.longterm_panel import LongtermProbePanel
+from storage.manager import StorageManager
 
 
 class MainWindow(QMainWindow):
@@ -19,14 +24,48 @@ class MainWindow(QMainWindow):
         self._init_ui()
 
     def _init_ui(self):
-        self.setWindowTitle("🔵 网络拨测工具 v1.0")
+        self.setWindowTitle(f"🔵 {APP_NAME} v{APP_VERSION}")
         self.setMinimumSize(900, 650)
         self.resize(1100, 780)
+
+        # ── 菜单栏 ──
+        self._init_menu()
 
         # 设置全局样式
         self.setStyleSheet("""
             QMainWindow {
                 background: #ffffff;
+            }
+            QMenuBar {
+                background: #f8f9fa;
+                border-bottom: 1px solid #e0e0e0;
+                font-family: "Microsoft YaHei", "SimHei", sans-serif;
+                font-size: 12px;
+                padding: 2px 0;
+            }
+            QMenuBar::item {
+                padding: 4px 12px;
+                background: transparent;
+                border-radius: 4px;
+            }
+            QMenuBar::item:selected {
+                background: #e8f0fe;
+                color: #1a73e8;
+            }
+            QMenu {
+                background: #ffffff;
+                border: 1px solid #e0e0e0;
+                border-radius: 6px;
+                padding: 4px 0;
+                font-family: "Microsoft YaHei", "SimHei", sans-serif;
+                font-size: 12px;
+            }
+            QMenu::item {
+                padding: 6px 24px;
+            }
+            QMenu::item:selected {
+                background: #e8f0fe;
+                color: #1a73e8;
             }
             QTabWidget::pane {
                 border: none;
@@ -92,7 +131,38 @@ class MainWindow(QMainWindow):
         # 状态栏
         self.status_bar = QStatusBar()
         self.setStatusBar(self.status_bar)
-        self.status_bar.showMessage("就绪 | 网络拨测工具 v1.0")
+        self.status_bar.showMessage(f"就绪 | {APP_NAME} v{APP_VERSION}")
+
+    def _init_menu(self):
+        """初始化菜单栏"""
+        menu_bar = self.menuBar()
+
+        # ── 帮助菜单 ──
+        help_menu = menu_bar.addMenu("帮助(&H)")
+
+        # 关于
+        about_action = QAction("关于(&A)", self)
+        about_action.triggered.connect(self._show_about)
+        help_menu.addAction(about_action)
+
+    def _show_about(self):
+        """显示关于对话框"""
+        about_html = (
+            f'<div style="text-align:center;">'
+            f'<h2 style="color:#1a73e8; margin-bottom:4px;">🔵 {APP_NAME}</h2>'
+            f'<p style="color:#555; font-size:13px; margin:4px 0;">版本：v{APP_VERSION}</p>'
+            f'<hr style="border:none; border-top:1px solid #e0e0e0; margin:12px 0;"/>'
+            f'<p style="font-size:13px; margin:4px 0;">开发人邮箱：'
+            f'<a href="mailto:{APP_DEVELOPER_EMAIL}" style="color:#1a73e8; text-decoration:none;">'
+            f'{APP_DEVELOPER_EMAIL}</a></p>'
+            f'</div>'
+        )
+        msg = QMessageBox(self)
+        msg.setWindowTitle(f"关于 {APP_NAME}")
+        msg.setTextFormat(Qt.TextFormat.RichText)
+        msg.setText(about_html)
+        msg.setStandardButtons(QMessageBox.StandardButton.Ok)
+        msg.exec()
 
     def _update_status(self, text: str):
         """更新状态栏文本"""

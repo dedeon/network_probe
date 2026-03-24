@@ -23,11 +23,12 @@ class DnsEngine(QThread):
     error_occurred = pyqtSignal(str)
     finished_signal = pyqtSignal()
 
-    def __init__(self, target: str, dns_server: str = None,
+    def __init__(self, target: str, port: int = 53, dns_server: str = None,
                  query_type: str = 'A', timeout_ms: int = 2000,
                  interval_ms: int = 500, parent=None):
         super().__init__(parent)
         self.target = target
+        self.port = port
         self.dns_server = dns_server
         self.query_type = query_type
         self.timeout_ms = timeout_ms
@@ -48,6 +49,8 @@ class DnsEngine(QThread):
         resolver = dns.resolver.Resolver()
         if self.dns_server:
             resolver.nameservers = [self.dns_server]
+        # 设置自定义端口
+        resolver.port = self.port
         resolver.timeout = self.timeout_ms / 1000
         resolver.lifetime = self.timeout_ms / 1000
 

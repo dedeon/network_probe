@@ -10,11 +10,12 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtCore import Qt, QTimer, pyqtSlot
 from PyQt6.QtGui import QFont, QTextCursor, QColor, QTextCharFormat
 
-from ..engines.ping_engine import PingEngine
-from ..engines.dns_engine import DnsEngine
-from ..engines.curl_engine import CurlEngine
-from ..storage.manager import StorageManager
-from ..utils.validators import validate_target, is_ip_address
+from engines.ping_engine import PingEngine
+from engines.dns_engine import DnsEngine
+from engines.curl_engine import CurlEngine
+from engines.tcp_keepalive_engine import TcpKeepaliveEngine
+from storage.manager import StorageManager
+from utils.validators import parse_target_with_port, is_ip_address
 
 
 class InstantProbePanel(QWidget):
@@ -34,6 +35,7 @@ class InstantProbePanel(QWidget):
         self._loss_count = 0
         self._rtt_sum = 0.0
         self._last_10_rtts = []
+        self._viewing_history = False  # 标记当前是否正在查看非当前任务的历史记录
 
         self._init_ui()
         self._load_history()
@@ -56,7 +58,7 @@ class InstantProbePanel(QWidget):
         addr_label.setFixedWidth(70)
         addr_label.setFont(QFont("Microsoft YaHei", 10))
         self.addr_input = QLineEdit()
-        self.addr_input.setPlaceholderText("输入 IP 地址或域名，如 8.8.8.8 或 www.baidu.com")
+        self.addr_input.setPlaceholderText("输入 地址:端口，如 8.8.8.8:53 或 www.baidu.com:443")
         self.addr_input.setFont(QFont("Microsoft YaHei", 10))
         self.addr_input.setMinimumHeight(32)
         self.addr_error = QLabel("")
@@ -76,20 +78,25 @@ class InstantProbePanel(QWidget):
         self.radio_ping = QRadioButton("Ping")
         self.radio_dns = QRadioButton("DNS")
         self.radio_curl = QRadioButton("Curl")
+        self.radio_keepalive = QRadioButton("长连接")
         self.radio_ping.setChecked(True)
         self.radio_ping.setFont(QFont("Microsoft YaHei", 10))
         self.radio_dns.setFont(QFont("Microsoft YaHei", 10))
         self.radio_curl.setFont(QFont("Microsoft YaHei", 10))
+        self.radio_keepalive.setFont(QFont("Microsoft YaHei", 10))
         self.method_group.addButton(self.radio_ping, 0)
         self.method_group.addButton(self.radio_dns, 1)
         self.method_group.addButton(self.radio_curl, 2)
+        self.method_group.addButton(self.radio_keepalive, 3)
         self.radio_ping.setToolTip("ICMP协议探测，测量网络连通性和往返时延")
         self.radio_dns.setToolTip("DNS域名解析探测，测量DNS查询耗时和结果")
         self.radio_curl.setToolTip("HTTP(S)请求探测，测量各阶段耗时和HTTP状态码")
+        self.radio_keepalive.setToolTip("TCP长连接探测，持续建立TCP连接并发送心跳，测量建连成功率、心跳RTT和连接稳定性")
         method_row.addWidget(method_label)
         method_row.addWidget(self.radio_ping)
         method_row.addWidget(self.radio_dns)
         method_row.addWidget(self.radio_curl)
+        method_row.addWidget(self.radio_keepalive)
         method_row.addStretch()
         input_layout.addLayout(method_row)
 
@@ -192,29 +199,32 @@ class InstantProbePanel(QWidget):
             return 'ping'
         elif self.radio_dns.isChecked():
             return 'dns'
-        else:
+        elif self.radio_curl.isChecked():
             return 'curl'
+        else:
+            return 'keepalive'
 
     def _start_probe(self):
-        target = self.addr_input.text().strip()
+        raw_input = self.addr_input.text().strip()
         protocol = self._get_protocol()
 
-        # 输入校验
-        valid, addr_type = validate_target(target)
-        if not valid:
-            self.addr_error.setText("⚠ 请输入有效的 IP 地址或域名")
+        # 输入校验：解析 地址:端口
+        host, port, error_msg = parse_target_with_port(raw_input)
+        if error_msg:
+            self.addr_error.setText(f"⚠ {error_msg}")
             self.addr_error.setVisible(True)
             return
 
-        if protocol == 'dns' and is_ip_address(target):
+        if protocol == 'dns' and is_ip_address(host):
             self.addr_error.setText("⚠ DNS拨测需要输入域名，不支持纯IP地址")
             self.addr_error.setVisible(True)
             return
 
         self.addr_error.setVisible(False)
 
-        # 创建记录
-        self.current_record_dir = self.storage.create_record('instant', protocol, target)
+        # 创建记录（target 保存完整的 host:port）
+        target_display = f"{host}:{port}"
+        self.current_record_dir = self.storage.create_record('instant', protocol, target_display)
         self.records = []
         self._seq_count = 0
         self._success_count = 0
@@ -223,6 +233,7 @@ class InstantProbePanel(QWidget):
         self._last_10_rtts = []
         self.start_time = time.time()
         self.auto_scroll = True
+        self._viewing_history = False
 
         # 清空结果窗口
         self.result_text.clear()
@@ -235,14 +246,18 @@ class InstantProbePanel(QWidget):
         self.radio_ping.setEnabled(False)
         self.radio_dns.setEnabled(False)
         self.radio_curl.setEnabled(False)
+        self.radio_keepalive.setEnabled(False)
 
-        # 创建引擎
+        # 创建引擎（传入端口参数）
+        # DNS拨测：端口是DNS服务器端口（默认53），不是目标域名的服务端口
         if protocol == 'ping':
-            self.engine = PingEngine(target)
+            self.engine = PingEngine(host, port=port)
         elif protocol == 'dns':
-            self.engine = DnsEngine(target)
+            self.engine = DnsEngine(host, port=53)
         elif protocol == 'curl':
-            self.engine = CurlEngine(target)
+            self.engine = CurlEngine(host, port=port)
+        elif protocol == 'keepalive':
+            self.engine = TcpKeepaliveEngine(host, port=port)
 
         self.engine.result_ready.connect(self._on_result)
         self.engine.error_occurred.connect(self._on_error)
@@ -263,9 +278,9 @@ class InstantProbePanel(QWidget):
 
         # 更新计数器
         self._seq_count += 1
-        if record.get('status') == 'success':
+        if record.get('status') in ('success', 'connect_ok'):
             self._success_count += 1
-            rtt = record.get('rtt_ms') or record.get('latency_ms') or record.get('total_ms') or 0
+            rtt = record.get('rtt_ms') or record.get('latency_ms') or record.get('total_ms') or record.get('heartbeat_rtt_ms') or record.get('connect_rtt_ms') or 0
             self._rtt_sum += rtt
             self._last_10_rtts.append(rtt)
             if len(self._last_10_rtts) > 10:
@@ -273,13 +288,14 @@ class InstantProbePanel(QWidget):
         else:
             self._loss_count += 1
 
-        # 存储
+        # 存储（始终保存，不管是否在查看历史）
         self.records.append(record)
         self.storage.append_record(self.current_record_dir, protocol, record)
 
-        # 格式化显示
-        line = self._format_result_line(record, protocol)
-        self._append_result(line, record.get('status') == 'success')
+        # 仅当用户没有切换到查看其他历史记录时，才更新结果显示
+        if not self._viewing_history:
+            line = self._format_result_line(record, protocol)
+            self._append_result(line, record.get('status') in ('success', 'connect_ok'))
 
     def _format_result_line(self, record: dict, protocol: str) -> str:
         ts = record.get('timestamp', '')
@@ -288,7 +304,11 @@ class InstantProbePanel(QWidget):
 
         status_map = {
             'success': '成功', 'timeout': '超时', 'unreachable': '不可达',
-            'error': '错误', 'tls_error': 'TLS失败'
+            'error': '错误', 'tls_error': 'TLS失败',
+            'connect_ok': '建连成功', 'connect_timeout': '建连超时',
+            'connect_refused': '连接拒绝', 'connect_error': '建连失败',
+            'conn_lost': '连接丢失', 'conn_reset': '连接重置',
+            'disconnect': '断线', 'reconnecting': '重连中',
         }
         status_text = status_map.get(status, status)
 
@@ -311,6 +331,28 @@ class InstantProbePanel(QWidget):
             code = str(record.get('http_code', '--')) if record.get('http_code') is not None else '--'
             return (f"[{ts}]  seq={seq:<4} DNS={dns:<8} TCP={tcp:<8} TLS={tls:<8} "
                     f"TTFB={ttfb:<8} 总计={total:<10} HTTP={code:<5} 状态={status_text}")
+
+        elif protocol == 'keepalive':
+            event = record.get('event', '')
+            event_map = {'connect': '🔗建连', 'connect_fail': '❌建连失败',
+                         'heartbeat': '💓心跳', 'disconnect': '🔌断线',
+                         'reconnect_wait': '⏳重连等待'}
+            event_text = event_map.get(event, event)
+            sid = record.get('session_id', '--')
+            conn_rtt = f"{record.get('connect_rtt_ms')}ms" if record.get('connect_rtt_ms') is not None else '--'
+            hb_rtt = f"{record.get('heartbeat_rtt_ms')}ms" if record.get('heartbeat_rtt_ms') is not None else '--'
+            sess_dur = ''
+            if record.get('session_duration_ms') is not None:
+                dur_ms = record['session_duration_ms']
+                if dur_ms >= 60000:
+                    sess_dur = f"{dur_ms/60000:.1f}min"
+                elif dur_ms >= 1000:
+                    sess_dur = f"{dur_ms/1000:.1f}s"
+                else:
+                    sess_dur = f"{dur_ms:.0f}ms"
+            return (f"[{ts}]  seq={seq:<4} {event_text:<10} 会话#{sid:<3} "
+                    f"建连RTT={conn_rtt:<10} 心跳RTT={hb_rtt:<10} "
+                    f"会话时长={sess_dur:<10} 状态={status_text}")
 
         return f"[{ts}]  seq={seq}  状态={status_text}"
 
@@ -364,6 +406,7 @@ class InstantProbePanel(QWidget):
         self.radio_ping.setEnabled(True)
         self.radio_dns.setEnabled(True)
         self.radio_curl.setEnabled(True)
+        self.radio_keepalive.setEnabled(True)
 
         # 更新 meta
         if self.current_record_dir and self.start_time:
@@ -400,7 +443,7 @@ class InstantProbePanel(QWidget):
         for i, btn in enumerate(self.history_buttons):
             if i < len(records):
                 meta = records[i]
-                protocol_map = {'ping': 'Ping', 'dns': 'DNS', 'curl': 'Curl'}
+                protocol_map = {'ping': 'Ping', 'dns': 'DNS', 'curl': 'Curl', 'keepalive': '长连接'}
                 protocol_text = protocol_map.get(meta.get('protocol', ''), meta.get('protocol', ''))
                 start_time = meta.get('start_time', '')[:16].replace('T', ' ')
                 label = f"第{i+1}次 {start_time} {protocol_text}"
@@ -429,12 +472,22 @@ class InstantProbePanel(QWidget):
         record_dir = meta.get('_dir')
         protocol = meta.get('protocol', 'ping')
 
+        # 判断是否正在查看非当前运行的任务
+        is_current_task = (record_dir == self.current_record_dir)
+        engine_running = self.engine and self.engine.isRunning()
+
+        if engine_running and not is_current_task:
+            # 正在运行任务，但用户切换到查看其他历史记录
+            self._viewing_history = True
+        else:
+            self._viewing_history = False
+
         # 加载历史数据并显示
         data = self.storage.load_records_data(record_dir)
         self.result_text.clear()
         for r in data:
             line = self._format_result_line(r, protocol)
-            is_success = r.get('status') == 'success'
+            is_success = r.get('status') in ('success', 'connect_ok')
             self._append_result(line, is_success)
 
         # 更新导出按钮状态

@@ -1,6 +1,5 @@
 """Curl/HTTP 拨测引擎"""
 import time
-import ssl
 from datetime import datetime
 from urllib.parse import urlparse
 from PyQt6.QtCore import QThread, pyqtSignal
@@ -24,11 +23,12 @@ class CurlEngine(QThread):
     error_occurred = pyqtSignal(str)
     finished_signal = pyqtSignal()
 
-    def __init__(self, target: str, method: str = 'GET', timeout_ms: int = 10000,
+    def __init__(self, target: str, port: int = 80, method: str = 'GET', timeout_ms: int = 10000,
                  connect_timeout_ms: int = 5000, follow_redirects: bool = True,
                  verify_tls: bool = True, interval_ms: int = 1000, parent=None):
         super().__init__(parent)
         self.target = target
+        self.port = port
         self.method = method
         self.timeout_ms = timeout_ms
         self.connect_timeout_ms = connect_timeout_ms
@@ -38,11 +38,21 @@ class CurlEngine(QThread):
         self._running = False
         self._seq = 0
 
-    def _ensure_url(self, target: str) -> str:
-        """确保目标地址包含协议头"""
-        if not target.startswith(('http://', 'https://')):
-            return f'http://{target}'
-        return target
+    def _ensure_url(self, target: str, port: int) -> str:
+        """确保目标地址包含协议头和端口"""
+        if target.startswith(('http://', 'https://')):
+            # 已有协议头，检查是否需要加端口
+            parsed = urlparse(target)
+            if parsed.port is None:
+                # 没有指定端口，加上端口
+                host = parsed.hostname or ''
+                scheme = parsed.scheme
+                path = parsed.path or ''
+                return f'{scheme}://{host}:{port}{path}'
+            return target
+        # 无协议头，根据端口判断协议
+        scheme = 'https' if port == 443 else 'http'
+        return f'{scheme}://{target}:{port}'
 
     def run(self):
         if not REQUESTS_AVAILABLE:
@@ -52,7 +62,7 @@ class CurlEngine(QThread):
 
         self._running = True
         self._seq = 0
-        url = self._ensure_url(self.target)
+        url = self._ensure_url(self.target, self.port)
         session = requests.Session()
 
         while self._running:

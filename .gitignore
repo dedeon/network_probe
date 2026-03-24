@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 *.pyo
+*.egg-info/
 
 # Logs
 *.log
@@ -12,8 +13,23 @@ __pycache__/
 
 # IDE
 .codebuddy/
+.vscode/
+.idea/
 
-# Other workspace files (only commit pacong)
+# Build artifacts (PyInstaller)
+network_probe/dist/
+network_probe/build/
+network_probe/_build_python/
+network_probe/_upx/
+
+# Embedded Python & archives
+network_probe/python-3.11.9-embed-amd64.zip
+network_probe/python-3.11.9-embed-amd64/
+
+# Runtime data
+network_probe/data/
+
+# Other workspace files
 docs/
 public/
 server.js

@@ -132,6 +132,10 @@ class StorageManager:
         elif protocol == 'curl':
             fieldnames = ['timestamp', 'seq', 'dns_ms', 'tcp_ms', 'tls_ms',
                           'ttfb_ms', 'transfer_ms', 'total_ms', 'http_code', 'status']
+        elif protocol == 'keepalive':
+            fieldnames = ['timestamp', 'seq', 'event', 'session_id',
+                          'session_duration_ms', 'connect_rtt_ms',
+                          'heartbeat_rtt_ms', 'reconnect_wait_ms', 'status']
         else:
             fieldnames = list(record.keys())
 
@@ -156,19 +160,27 @@ class StorageManager:
         with open(data_path, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                # 类型转换
+                # 类型转换：空字符串统一转为 None
                 for key in ['rtt_ms', 'latency_ms', 'dns_ms', 'tcp_ms',
-                            'tls_ms', 'ttfb_ms', 'transfer_ms', 'total_ms']:
-                    if key in row and row[key]:
-                        try:
-                            row[key] = float(row[key])
-                        except (ValueError, TypeError):
+                            'tls_ms', 'ttfb_ms', 'transfer_ms', 'total_ms',
+                            'connect_rtt_ms', 'heartbeat_rtt_ms',
+                            'session_duration_ms', 'reconnect_wait_ms']:
+                    if key in row:
+                        if row[key] is not None and row[key] != '':
+                            try:
+                                row[key] = float(row[key])
+                            except (ValueError, TypeError):
+                                row[key] = None
+                        else:
                             row[key] = None
-                for key in ['seq', 'ttl', 'http_code']:
-                    if key in row and row[key]:
-                        try:
-                            row[key] = int(row[key])
-                        except (ValueError, TypeError):
+                for key in ['seq', 'ttl', 'http_code', 'session_id']:
+                    if key in row:
+                        if row[key] is not None and row[key] != '':
+                            try:
+                                row[key] = int(row[key])
+                            except (ValueError, TypeError):
+                                row[key] = None
+                        else:
                             row[key] = None
                 records.append(row)
         return records
@@ -202,7 +214,7 @@ class StorageManager:
             f.write('=' * 50 + '\n')
 
             mode_text = '长时间拨测' if meta.get('mode') == 'longterm' else '即时拨测'
-            protocol_map = {'ping': 'Ping', 'dns': 'DNS', 'curl': 'Curl/HTTP'}
+            protocol_map = {'ping': 'Ping', 'dns': 'DNS', 'curl': 'Curl/HTTP', 'keepalive': 'TCP长连接'}
             protocol_text = protocol_map.get(meta.get('protocol', ''), meta.get('protocol', ''))
 
             f.write(f"任务类型    : {mode_text}\n")
@@ -250,6 +262,23 @@ class StorageManager:
                     status_map = {'success': '成功', 'timeout': '超时', 'error': '连接失败', 'tls_error': 'TLS失败'}
                     status = status_map.get(r.get('status', ''), r.get('status', ''))
                     f.write(f"{r.get('timestamp', ''):<26}{r.get('seq', ''):<6}{dns:<8}{tcp:<8}{tls:<8}{ttfb:<8}{total:<10}{code:<6}{status}\n")
+            elif protocol == 'keepalive':
+                f.write(f"{'时间':<26}{'序号':<6}{'事件':<14}{'会话ID':<8}{'建连RTT':<12}{'心跳RTT':<12}{'会话时长':<14}{'状态'}\n")
+                for r in records:
+                    event_map = {'connect': '建连', 'connect_fail': '建连失败',
+                                 'heartbeat': '心跳', 'disconnect': '断线',
+                                 'reconnect_wait': '重连等待'}
+                    event = event_map.get(r.get('event', ''), r.get('event', ''))
+                    sid = str(r.get('session_id', '--')) if r.get('session_id') is not None else '--'
+                    conn_rtt = f"{r.get('connect_rtt_ms')}ms" if r.get('connect_rtt_ms') is not None else '--'
+                    hb_rtt = f"{r.get('heartbeat_rtt_ms')}ms" if r.get('heartbeat_rtt_ms') is not None else '--'
+                    sess_dur = f"{r.get('session_duration_ms')}ms" if r.get('session_duration_ms') is not None else '--'
+                    status_map = {'success': '成功', 'connect_ok': '成功', 'connect_timeout': '超时',
+                                  'connect_refused': '拒绝', 'connect_error': '错误',
+                                  'conn_lost': '连接丢失', 'conn_reset': '连接重置',
+                                  'disconnect': '断线', 'reconnecting': '重连中', 'error': '错误'}
+                    status = status_map.get(r.get('status', ''), r.get('status', ''))
+                    f.write(f"{r.get('timestamp', ''):<26}{r.get('seq', ''):<6}{event:<14}{sid:<8}{conn_rtt:<12}{hb_rtt:<12}{sess_dur:<14}{status}\n")
 
             f.write('=' * 50 + '\n')
 
@@ -293,6 +322,40 @@ class StorageManager:
                     f.write(f"P50               : {stats.get('latency_p50', 0)} ms\n")
                     f.write(f"P90               : {stats.get('latency_p90', 0)} ms\n")
                     f.write(f"P99               : {stats.get('latency_p99', 0)} ms\n\n")
+
+                elif protocol == 'keepalive':
+                    f.write('--- 建连统计 ---\n')
+                    f.write(f"建连尝试          : {stats.get('connect_attempts', 0)}\n")
+                    f.write(f"建连成功          : {stats.get('connect_ok_count', 0)}\n")
+                    f.write(f"建连失败          : {stats.get('connect_fail_count', 0)}\n")
+                    f.write(f"建连成功率        : {stats.get('connect_success_rate', 0):.2f}%\n")
+                    f.write(f"平均建连RTT       : {stats.get('connect_rtt_avg', 0)} ms\n")
+                    f.write(f"最小建连RTT       : {stats.get('connect_rtt_min', 0)} ms\n")
+                    f.write(f"最大建连RTT       : {stats.get('connect_rtt_max', 0)} ms\n\n")
+
+                    f.write('--- 心跳统计 ---\n')
+                    f.write(f"心跳总数          : {stats.get('heartbeat_total', 0)}\n")
+                    f.write(f"心跳成功          : {stats.get('heartbeat_success', 0)}\n")
+                    f.write(f"心跳丢包          : {stats.get('heartbeat_loss_count', 0)}\n")
+                    f.write(f"心跳丢包率        : {stats.get('heartbeat_loss_rate', 0):.2f}%\n")
+                    f.write(f"最大连续丢包      : {stats.get('heartbeat_max_burst_loss', 0)}\n")
+                    f.write(f"平均心跳RTT       : {stats.get('hb_rtt_avg', 0)} ms\n")
+                    f.write(f"P50               : {stats.get('hb_rtt_p50', 0)} ms\n")
+                    f.write(f"P90               : {stats.get('hb_rtt_p90', 0)} ms\n")
+                    f.write(f"P99               : {stats.get('hb_rtt_p99', 0)} ms\n")
+                    f.write(f"平均抖动          : {stats.get('hb_jitter_avg', 0)} ms\n")
+                    f.write(f"最大抖动          : {stats.get('hb_jitter_max', 0)} ms\n\n")
+
+                    f.write('--- 会话统计 ---\n')
+                    f.write(f"断线次数          : {stats.get('disconnect_count', 0)}\n")
+                    f.write(f"会话总数          : {stats.get('session_count', 0)}\n")
+                    f.write(f"平均会话时长      : {stats.get('avg_session_duration_ms', 0)} ms\n")
+                    f.write(f"最长会话时长      : {stats.get('max_session_duration_ms', 0)} ms\n\n")
+
+                    f.write('--- 重连统计 ---\n')
+                    f.write(f"重连次数          : {stats.get('reconnect_count', 0)}\n")
+                    f.write(f"平均重连等待      : {stats.get('avg_reconnect_wait_ms', 0)} ms\n")
+                    f.write(f"最长重连等待      : {stats.get('max_reconnect_wait_ms', 0)} ms\n\n")
 
                 # 质量评级
                 if 'rating' in stats:

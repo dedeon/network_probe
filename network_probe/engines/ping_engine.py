@@ -3,6 +3,7 @@ import subprocess
 import re
 import time
 import platform
+import sys
 from datetime import datetime
 from PyQt6.QtCore import QThread, pyqtSignal
 
@@ -19,10 +20,11 @@ class PingEngine(QThread):
     error_occurred = pyqtSignal(str)
     finished_signal = pyqtSignal()
 
-    def __init__(self, target: str, interval_ms: int = 200, timeout_ms: int = 2000,
+    def __init__(self, target: str, port: int = 0, interval_ms: int = 200, timeout_ms: int = 2000,
                  packet_size: int = 64, ttl: int = 64, parent=None):
         super().__init__(parent)
         self.target = target
+        self.port = port  # ping 使用 ICMP，不需要端口，但保留以统一接口
         self.interval_ms = interval_ms
         self.timeout_ms = timeout_ms
         self.packet_size = packet_size
@@ -61,9 +63,14 @@ class PingEngine(QThread):
                     ]
 
                 start_time = time.perf_counter()
+                # Windows 下使用 CREATE_NO_WINDOW 防止弹出 cmd 窗口
+                creation_flags = 0
+                if system == 'windows':
+                    creation_flags = subprocess.CREATE_NO_WINDOW
                 result = subprocess.run(
                     cmd, capture_output=True, text=True,
-                    timeout=self.timeout_ms / 1000 + 2
+                    timeout=self.timeout_ms / 1000 + 2,
+                    creationflags=creation_flags
                 )
                 elapsed = (time.perf_counter() - start_time) * 1000
 
