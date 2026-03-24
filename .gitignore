@@ -1,35 +1,55 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.egg-info/
+# ============================================
+# .gitignore — 小D网络拨测工具 NetProbe
+# ============================================
 
-# Logs
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.whl
+.eggs/
+*.so
+
+# ---------- PyInstaller 构建产物 ----------
+dist/
+build/
+*.spec.bak
+_build_python/
+_upx/
+
+# ---------- 嵌入式 Python & 压缩包 ----------
+python-*.zip
+python-*.embed*/
+
+# ---------- 运行时数据 ----------
+network_probe/data/
+
+# ---------- 日志 ----------
 *.log
 *.log.*
 
-# Database
+# ---------- 数据库 ----------
 *.db
+*.sqlite3
 
-# IDE
+# ---------- IDE / 编辑器 ----------
 .codebuddy/
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
 
-# Build artifacts (PyInstaller)
-network_probe/dist/
-network_probe/build/
-network_probe/_build_python/
-network_probe/_upx/
+# ---------- 虚拟环境 ----------
+.venv/
+venv/
+env/
+.env
 
-# Embedded Python & archives
-network_probe/python-3.11.9-embed-amd64.zip
-network_probe/python-3.11.9-embed-amd64/
-
-# Runtime data
-network_probe/data/
-
-# Other workspace files
+# ---------- 其他工作区文件（非本项目） ----------
 docs/
 public/
 server.js
